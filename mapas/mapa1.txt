@@ -1,0 +1,21 @@
+# Mapa muy chico de UADE: 6 estaciones, 2 obligatorias, 1 ventana de tiempo; conexiones dirigidas
+# LUGAR;nombre;aula(0 si no);x;y;obligatorio;prohibido
+LUGAR;Aula 348;348;0;0;1;0
+LUGAR;Pasillo P3;0;30;0;0;0
+LUGAR;Escalera;0;60;0;0;0
+LUGAR;Biblioteca;0;30;40;0;0
+LUGAR;Starbucks;0;90;40;1;0
+LUGAR;Aula 613;613;90;-40;1;0
+# ARISTA;origen;destino;segundos;modos (arista dirigida: origen -> destino; C=caminando, S=saltando, P=patas para arriba)
+ARISTA;Aula 348;Pasillo P3;40;C
+ARISTA;Pasillo P3;Escalera;40;CS
+ARISTA;Pasillo P3;Biblioteca;55;C
+ARISTA;Escalera;Starbucks;55;CSP
+ARISTA;Escalera;Aula 613;55;C
+ARISTA;Biblioteca;Starbucks;60;C
+ARISTA;Biblioteca;Aula 348;50;C
+ARISTA;Starbucks;Aula 613;50;CS
+ARISTA;Aula 613;Biblioteca;70;C
+# VENTANA;lugar;desde;hasta (cerrado en [desde,hasta], en segundos)
+VENTANA;Starbucks;90;140
+INICIO;Aula 348

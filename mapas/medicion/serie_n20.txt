@@ -1,0 +1,80 @@
+# Serie de medicion: 20 lugares (semilla 2026)
+# LUGAR;nombre;aula;x;y;obligatorio;prohibido
+LUGAR;Aula 348;348;0;0;0;0
+LUGAR;Lugar 0B;0;30;0;0;0
+LUGAR;Lugar 1A;0;0;30;0;0
+LUGAR;Lugar 1B;0;30;30;0;0
+LUGAR;Lugar 2A;0;0;60;0;0
+LUGAR;Lugar 2B;0;30;60;0;0
+LUGAR;Lugar 3A;0;0;90;0;0
+LUGAR;Lugar 3B;0;30;90;0;0
+LUGAR;Lugar 4A;0;0;120;0;0
+LUGAR;Lugar 4B;0;30;120;0;0
+LUGAR;Lugar 5A;0;0;150;0;0
+LUGAR;Lugar 5B;0;30;150;0;0
+LUGAR;Lugar 6A;0;0;180;0;0
+LUGAR;Lugar 6B;0;30;180;0;0
+LUGAR;Lugar 7A;0;0;210;0;0
+LUGAR;Lugar 7B;0;30;210;0;0
+LUGAR;Lugar 8A;0;0;240;0;0
+LUGAR;Lugar 8B;0;30;240;1;0
+LUGAR;Lugar 9A;0;0;270;1;0
+LUGAR;Lugar 9B;0;30;270;1;0
+# ARISTA;origen;destino;segundos;modos
+ARISTA;Aula 348;Lugar 0B;55;CP
+ARISTA;Lugar 0B;Aula 348;36;S
+ARISTA;Lugar 1A;Lugar 1B;45;C
+ARISTA;Lugar 1B;Lugar 1A;50;CP
+ARISTA;Lugar 2A;Lugar 2B;47;CSP
+ARISTA;Lugar 2B;Lugar 2A;52;CSP
+ARISTA;Lugar 3A;Lugar 3B;33;CSP
+ARISTA;Lugar 3B;Lugar 3A;47;CSP
+ARISTA;Lugar 4A;Lugar 4B;37;P
+ARISTA;Lugar 4B;Lugar 4A;60;P
+ARISTA;Lugar 5A;Lugar 5B;39;CS
+ARISTA;Lugar 5B;Lugar 5A;38;S
+ARISTA;Lugar 6A;Lugar 6B;52;S
+ARISTA;Lugar 6B;Lugar 6A;43;S
+ARISTA;Lugar 7A;Lugar 7B;44;CSP
+ARISTA;Lugar 7B;Lugar 7A;32;SP
+ARISTA;Lugar 8A;Lugar 8B;42;P
+ARISTA;Lugar 8B;Lugar 8A;57;C
+ARISTA;Lugar 9A;Lugar 9B;38;S
+ARISTA;Lugar 9B;Lugar 9A;52;C
+ARISTA;Aula 348;Lugar 1A;47;CSP
+ARISTA;Lugar 1A;Aula 348;33;P
+ARISTA;Lugar 0B;Lugar 1B;46;CS
+ARISTA;Lugar 1B;Lugar 0B;58;CSP
+ARISTA;Lugar 1A;Lugar 2A;33;CP
+ARISTA;Lugar 2A;Lugar 1A;42;CSP
+ARISTA;Lugar 1B;Lugar 2B;37;CSP
+ARISTA;Lugar 2B;Lugar 1B;38;S
+ARISTA;Lugar 2A;Lugar 3A;38;P
+ARISTA;Lugar 3A;Lugar 2A;58;CSP
+ARISTA;Lugar 2B;Lugar 3B;33;CSP
+ARISTA;Lugar 3B;Lugar 2B;45;C
+ARISTA;Lugar 3A;Lugar 4A;40;CP
+ARISTA;Lugar 4A;Lugar 3A;44;CS
+ARISTA;Lugar 3B;Lugar 4B;34;CS
+ARISTA;Lugar 4B;Lugar 3B;46;P
+ARISTA;Lugar 4A;Lugar 5A;30;CS
+ARISTA;Lugar 5A;Lugar 4A;35;CSP
+ARISTA;Lugar 4B;Lugar 5B;54;CSP
+ARISTA;Lugar 5B;Lugar 4B;59;CS
+ARISTA;Lugar 5A;Lugar 6A;47;CP
+ARISTA;Lugar 6A;Lugar 5A;40;CS
+ARISTA;Lugar 5B;Lugar 6B;52;CSP
+ARISTA;Lugar 6B;Lugar 5B;43;CSP
+ARISTA;Lugar 6A;Lugar 7A;36;CS
+ARISTA;Lugar 7A;Lugar 6A;60;CP
+ARISTA;Lugar 6B;Lugar 7B;46;P
+ARISTA;Lugar 7B;Lugar 6B;34;SP
+ARISTA;Lugar 7A;Lugar 8A;37;C
+ARISTA;Lugar 8A;Lugar 7A;41;CSP
+ARISTA;Lugar 7B;Lugar 8B;42;CS
+ARISTA;Lugar 8B;Lugar 7B;56;P
+ARISTA;Lugar 8A;Lugar 9A;40;S
+ARISTA;Lugar 9A;Lugar 8A;35;CS
+ARISTA;Lugar 8B;Lugar 9B;47;C
+ARISTA;Lugar 9B;Lugar 8B;42;C
+INICIO;Aula 348
