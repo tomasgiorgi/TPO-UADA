@@ -1,22 +1,24 @@
 import java.util.*;
 
+// Un nodo del arbol de Branch & Bound: el estado de Uada despues de un movimiento (lugar + modo)
 public class Nodo implements Comparable<Nodo>{
-    public static Lugar INICIO;
+    public static Lugar INICIO;          // el 348, para calcular la distancia de cada nodo
 
-    private int id;
-    private Nodo padre;
-    private Lugar lugar;
-    private Modo modo;
-    private double tiempo;
-    private double bateria;
-    private List<Lugar> visitados;
-    private List<Lugar> pendientes;
-    private double CI;
-    private double CS;
-    private double distanciaAl348;
-    private Estado estado;
-    private int ordenExpansion;
+    private int id;                      // posicion en la lista 'todos' (orden de creacion)
+    private Nodo padre;                  // nodo anterior, para reconstruir la ruta
+    private Lugar lugar;                 // lugar al que llego
+    private Modo modo;                   // modo con el que llego
+    private double tiempo;               // tiempo acumulado (segundos)
+    private double bateria;              // bateria restante
+    private List<Lugar> visitados;       // lugares recorridos, en orden
+    private List<Lugar> pendientes;      // obligatorios que faltan (incluye el 348)
+    private double CI;                   // cota inferior
+    private double CS;                   // cota superior
+    private double distanciaAl348;       // distancia euclidea al 348 (para la contingencia)
+    private Estado estado;               // VIVO, EXPANDIDO, SOLUCION o tipo de poda
+    private int ordenExpansion;          // en que paso se expandio (0 si no se expandio)
 
+    // Crea el nodo copiando visitados y pendientes del padre (cada nodo tiene su propia copia)
     public Nodo (int id, Nodo padre, Lugar lugar, Modo modo, double tiempo, double bateria) {
         this.id = id;
         this.padre = padre;
@@ -34,11 +36,13 @@ public class Nodo implements Comparable<Nodo>{
 
     }
 
+    // Marca el lugar como visitado y lo saca de pendientes
     public void registrarLlegada() {
         visitados.add(lugar);
         pendientes.remove(lugar);
     }
 
+    // Orden de la cola de vivos: menor CI, despues menor CS, despues menor id
     @Override
     public int compareTo(Nodo o) {
         int porCI = Double.compare(this.CI, o.CI);
@@ -49,10 +53,12 @@ public class Nodo implements Comparable<Nodo>{
 
     }
 
+    // Cantidad de lugares visitados (se usa para desempatar el top 3)
     public int getTamanoVisitados() {
         return getVisitados().size();
     }
 
+    // ===== Getters y setters =====
     public static Lugar getInicio() {
         return INICIO;
     }
