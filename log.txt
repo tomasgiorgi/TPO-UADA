@@ -1,0 +1,594 @@
+PASO 1 | extraido N0 | CI=60.0 | CS=965.0 | U=965.0 | vivos=0
+PASO 2 | extraido N5 | CI=85.0 | CS=940.0 | U=965.0 | vivos=4
+PASO 3 | extraido N2 | CI=90.0 | CS=875.0 | U=965.0 | vivos=5
+PASO 4 | extraido N4 | CI=110.0 | CS=965.0 | U=965.0 | vivos=8
+PASO 5 | extraido N11 | CI=112.5 | CS=852.5 | U=965.0 | vivos=9
+PASO 6 | extraido N22 | CI=115.0 | CS=787.5 | U=965.0 | vivos=13
+PASO 7 | extraido N1 | CI=120.0 | CS=905.0 | U=965.0 | vivos=14
+PASO 8 | extraido N19 | CI=132.5 | CS=792.5 | U=965.0 | vivos=17
+PASO 9 | extraido N30 | CI=132.5 | CS=725.0 | U=965.0 | vivos=19
+PASO 10 | extraido N10 | CI=135.0 | CS=875.0 | U=965.0 | vivos=20
+PASO 11 | extraido N38 | CI=137.5 | CS=810.0 | U=965.0 | vivos=24
+PASO 12 | extraido N21 | CI=140.0 | CS=812.5 | U=965.0 | vivos=25
+PASO 13 | extraido N8 | CI=140.0 | CS=885.0 | U=965.0 | vivos=26
+PASO 14 | extraido N24 | CI=142.5 | CS=715.0 | U=965.0 | vivos=25
+PASO 15 | extraido N26 | CI=142.5 | CS=882.5 | U=965.0 | vivos=24
+PASO 16 | extraido N49 | CI=145.0 | CS=817.5 | U=965.0 | vivos=28
+PASO 17 | extraido N12 | CI=145.0 | CS=820.0 | U=965.0 | vivos=29
+PASO 18 | extraido N18 | CI=152.5 | CS=812.5 | U=965.0 | vivos=33
+PASO 19 | extraido N58 | CI=152.5 | CS=745.0 | U=965.0 | vivos=35
+PASO 20 | extraido N29 | CI=155.0 | CS=747.5 | U=965.0 | vivos=36
+PASO 21 | extraido N35 | CI=155.0 | CS=815.0 | U=965.0 | vivos=37
+PASO 22 | extraido N65 | CI=155.0 | CS=747.5 | U=965.0 | vivos=39
+PASO 23 | extraido N33 | CI=160.0 | CS=652.5 | U=965.0 | vivos=40
+PASO 24 | extraido N46 | CI=162.5 | CS=822.5 | U=965.0 | vivos=39
+PASO 25 | extraido N70 | CI=162.5 | CS=755.0 | U=965.0 | vivos=41
+PASO 26 | extraido N37 | CI=162.5 | CS=835.0 | U=965.0 | vivos=42
+PASO 27 | extraido N40 | CI=165.0 | CS=737.5 | U=965.0 | vivos=43
+PASO 28 | extraido N25 | CI=165.0 | CS=905.0 | U=965.0 | vivos=42
+PASO 29 | extraido N16 | CI=165.0 | CS=910.0 | U=965.0 | vivos=46
+PASO 30 | extraido N42 | CI=167.5 | CS=740.0 | U=965.0 | vivos=45
+PASO 31 | extraido N56 | CI=167.5 | CS=797.5 | U=965.0 | vivos=44
+PASO 32 | extraido N80 | CI=167.5 | CS=840.0 | U=965.0 | vivos=43
+PASO 33 | extraido N23 | CI=170.0 | CS=742.5 | U=965.0 | vivos=44
+PASO 34 | extraido N53 | CI=170.0 | CS=745.0 | U=965.0 | vivos=43
+PASO 35 | extraido N48 | CI=170.0 | CS=842.5 | U=965.0 | vivos=42
+PASO 36 | extraido N51 | CI=172.5 | CS=745.0 | U=965.0 | vivos=43
+PASO 37 | extraido N57 | CI=175.0 | CS=767.5 | U=965.0 | vivos=42
+PASO 38 | extraido N34 | CI=175.0 | CS=835.0 | U=965.0 | vivos=43
+PASO 39 | extraido N93 | CI=175.0 | CS=767.5 | U=965.0 | vivos=45
+PASO 40 | extraido N27 | CI=175.0 | CS=850.0 | U=965.0 | vivos=46
+PASO 41 | extraido N64 | CI=177.5 | CS=770.0 | U=965.0 | vivos=50
+PASO 42 | extraido N61 | CI=180.0 | CS=672.5 | U=965.0 | vivos=51
+PASO 43 | extraido N3 | CI=180.0 | CS=965.0 | U=965.0 | vivos=50
+PASO 44 | extraido N63 | CI=182.5 | CS=675.0 | U=965.0 | vivos=53
+PASO 45 | extraido N68 | CI=182.5 | CS=675.0 | U=965.0 | vivos=52
+PASO 46 | extraido N45 | CI=182.5 | CS=842.5 | U=965.0 | vivos=51
+PASO 47 | extraido N109 | CI=182.5 | CS=775.0 | U=965.0 | vivos=53
+PASO 48 | extraido N69 | CI=185.0 | CS=777.5 | U=965.0 | vivos=54
+PASO 49 | extraido N77 | CI=185.0 | CS=845.0 | U=965.0 | vivos=55
+PASO 50 | extraido N116 | CI=185.0 | CS=777.5 | U=965.0 | vivos=57
+PASO 51 | extraido N32 | CI=187.5 | CS=680.0 | U=965.0 | vivos=58
+PASO 52 | extraido N73 | CI=190.0 | CS=682.5 | U=965.0 | vivos=57
+PASO 53 | extraido N75 | CI=190.0 | CS=762.5 | U=965.0 | vivos=56
+PASO 54 | extraido N55 | CI=190.0 | CS=820.0 | U=965.0 | vivos=55
+PASO 55 | extraido N39 | CI=192.5 | CS=765.0 | U=965.0 | vivos=54
+PASO 56 | extraido N20 | CI=192.5 | CS=852.5 | U=965.0 | vivos=53
+PASO 57 | extraido N124 | CI=192.5 | CS=785.0 | U=965.0 | vivos=55
+PASO 58 | extraido N79 | CI=192.5 | CS=865.0 | U=965.0 | vivos=56
+PASO 59 | extraido N41 | CI=195.0 | CS=767.5 | U=965.0 | vivos=57
+PASO 60 | extraido N87 | CI=195.0 | CS=767.5 | U=965.0 | vivos=56
+PASO 61 | extraido N52 | CI=195.0 | CS=770.0 | U=965.0 | vivos=55
+PASO 62 | extraido N9 | CI=195.0 | CS=940.0 | U=965.0 | vivos=54
+PASO 63 | extraido N89 | CI=197.5 | CS=770.0 | U=965.0 | vivos=53
+PASO 64 | extraido N92 | CI=197.5 | CS=790.0 | U=965.0 | vivos=52
+PASO 65 | extraido N101 | CI=197.5 | CS=827.5 | U=965.0 | vivos=53
+PASO 66 | extraido N50 | CI=200.0 | CS=772.5 | U=965.0 | vivos=52
+PASO 67 | extraido N98 | CI=200.0 | CS=775.0 | U=965.0 | vivos=51
+PASO 68 | extraido N31 | CI=200.0 | CS=792.5 | U=965.0 | vivos=50
+PASO 69 | extraido N13 | CI=200.0 | CS=875.0 | U=965.0 | vivos=51
+PASO 70 | extraido N91 | CI=202.5 | CS=695.0 | U=965.0 | vivos=55
+PASO 71 | extraido N96 | CI=202.5 | CS=695.0 | U=965.0 | vivos=54
+PASO 72 | extraido N105 | CI=202.5 | CS=942.5 | U=965.0 | vivos=53
+PASO 73 | extraido N103 | CI=205.0 | CS=697.5 | U=965.0 | vivos=57
+PASO 74 | extraido N108 | CI=205.0 | CS=797.5 | U=965.0 | vivos=56
+PASO 75 | extraido N76 | CI=205.0 | CS=865.0 | U=965.0 | vivos=57
+PASO 76 | extraido N152 | CI=205.0 | CS=797.5 | U=965.0 | vivos=59
+PASO 77 | extraido N148 | CI=205.0 | CS=877.5 | U=965.0 | vivos=60
+PASO 78 | extraido N60 | CI=207.5 | CS=700.0 | U=965.0 | vivos=61
+PASO 79 | extraido N115 | CI=207.5 | CS=800.0 | U=965.0 | vivos=60
+PASO 80 | extraido N62 | CI=210.0 | CS=702.5 | U=965.0 | vivos=61
+PASO 81 | extraido N67 | CI=210.0 | CS=702.5 | U=965.0 | vivos=60
+PASO 82 | extraido N112 | CI=210.0 | CS=702.5 | U=965.0 | vivos=59
+PASO 83 | extraido N114 | CI=212.5 | CS=705.0 | U=965.0 | vivos=58
+PASO 84 | extraido N119 | CI=212.5 | CS=705.0 | U=965.0 | vivos=57
+PASO 85 | extraido N123 | CI=215.0 | CS=807.5 | U=965.0 | vivos=56
+PASO 86 | extraido N36 | CI=215.0 | CS=875.0 | U=965.0 | vivos=57
+PASO 87 | extraido N163 | CI=215.0 | CS=807.5 | U=965.0 | vivos=59
+PASO 88 | extraido N72 | CI=217.5 | CS=710.0 | U=965.0 | vivos=60
+PASO 89 | extraido N74 | CI=217.5 | CS=790.0 | U=965.0 | vivos=59
+PASO 90 | extraido N127 | CI=220.0 | CS=712.5 | U=965.0 | vivos=58
+PASO 91 | extraido N129 | CI=220.0 | CS=792.5 | U=965.0 | vivos=57
+PASO 92 | extraido N59 | CI=220.0 | CS=812.5 | U=965.0 | vivos=56
+PASO 93 | extraido N100 | CI=220.0 | CS=850.0 | U=965.0 | vivos=57
+PASO 94 | extraido N17 | CI=220.0 | CS=965.0 | U=965.0 | vivos=56
+PASO 95 | extraido N86 | CI=222.5 | CS=795.0 | U=965.0 | vivos=55
+PASO 96 | extraido N66 | CI=222.5 | CS=815.0 | U=965.0 | vivos=54
+PASO 97 | extraido N143 | CI=222.5 | CS=852.5 | U=965.0 | vivos=55
+PASO 98 | extraido N47 | CI=222.5 | CS=882.5 | U=965.0 | vivos=54
+PASO 99 | extraido N180 | CI=222.5 | CS=815.0 | U=965.0 | vivos=56
+PASO 100 | extraido N145 | CI=222.5 | CS=882.5 | U=965.0 | vivos=57
+PASO 101 | extraido N185 | CI=222.5 | CS=815.0 | U=965.0 | vivos=59
+PASO 102 | extraido N133 | CI=225.0 | CS=717.5 | U=965.0 | vivos=60
+PASO 103 | extraido N88 | CI=225.0 | CS=797.5 | U=965.0 | vivos=59
+PASO 104 | extraido N97 | CI=225.0 | CS=800.0 | U=965.0 | vivos=58
+PASO 105 | extraido N140 | CI=225.0 | CS=800.0 | U=965.0 | vivos=57
+PASO 106 | extraido N104 | CI=225.0 | CS=965.0 | U=965.0 | vivos=56
+PASO 107 | extraido N138 | CI=227.5 | CS=720.0 | U=965.0 | vivos=60
+PASO 108 | extraido N151 | CI=227.5 | CS=820.0 | U=965.0 | vivos=59
+PASO 109 | extraido N193 | CI=227.5 | CS=900.0 | U=965.0 | vivos=60
+PASO 110 | extraido N90 | CI=230.0 | CS=722.5 | U=965.0 | vivos=61
+PASO 111 | extraido N95 | CI=230.0 | CS=722.5 | U=965.0 | vivos=60
+PASO 112 | extraido N71 | CI=230.0 | CS=822.5 | U=965.0 | vivos=59
+PASO 113 | extraido N147 | CI=230.0 | CS=902.5 | U=965.0 | vivos=60
+PASO 114 | extraido N28 | CI=230.0 | CS=905.0 | U=965.0 | vivos=61
+PASO 115 | extraido N102 | CI=232.5 | CS=725.0 | U=965.0 | vivos=65
+PASO 116 | extraido N150 | CI=232.5 | CS=725.0 | U=965.0 | vivos=64
+PASO 117 | extraido N155 | CI=232.5 | CS=725.0 | U=965.0 | vivos=63
+PASO 118 | extraido N157 | CI=232.5 | CS=805.0 | U=965.0 | vivos=62
+PASO 119 | extraido N159 | CI=235.0 | CS=727.5 | U=965.0 | vivos=61
+PASO 120 | extraido N106 | CI=235.0 | CS=910.0 | U=965.0 | vivos=60
+PASO 121 | extraido N111 | CI=237.5 | CS=730.0 | U=965.0 | vivos=64
+PASO 122 | extraido N162 | CI=237.5 | CS=830.0 | U=965.0 | vivos=63
+PASO 123 | extraido N113 | CI=240.0 | CS=732.5 | U=965.0 | vivos=64
+PASO 124 | extraido N118 | CI=240.0 | CS=732.5 | U=965.0 | vivos=63
+PASO 125 | extraido N161 | CI=242.5 | CS=735.0 | U=965.0 | vivos=62
+PASO 126 | extraido N166 | CI=242.5 | CS=735.0 | U=965.0 | vivos=61
+PASO 127 | extraido N94 | CI=242.5 | CS=835.0 | U=965.0 | vivos=60
+PASO 128 | extraido N144 | CI=242.5 | CS=902.5 | U=965.0 | vivos=61
+PASO 129 | extraido N217 | CI=242.5 | CS=835.0 | U=965.0 | vivos=63
+PASO 130 | extraido N54 | CI=245.0 | CS=820.0 | U=965.0 | vivos=64
+PASO 131 | extraido N179 | CI=245.0 | CS=837.5 | U=965.0 | vivos=63
+PASO 132 | extraido N184 | CI=245.0 | CS=837.5 | U=965.0 | vivos=64
+PASO 133 | extraido N142 | CI=245.0 | CS=875.0 | U=965.0 | vivos=65
+PASO 134 | extraido N78 | CI=245.0 | CS=905.0 | U=965.0 | vivos=64
+PASO 135 | extraido N229 | CI=245.0 | CS=837.5 | U=965.0 | vivos=66
+PASO 136 | extraido N190 | CI=245.0 | CS=905.0 | U=965.0 | vivos=67
+PASO 137 | extraido N234 | CI=245.0 | CS=837.5 | U=965.0 | vivos=69
+PASO 138 | extraido N126 | CI=247.5 | CS=740.0 | U=965.0 | vivos=70
+PASO 139 | extraido N168 | CI=247.5 | CS=740.0 | U=965.0 | vivos=69
+PASO 140 | extraido N128 | CI=247.5 | CS=820.0 | U=965.0 | vivos=68
+PASO 141 | extraido N175 | CI=250.0 | CS=742.5 | U=965.0 | vivos=67
+PASO 142 | extraido N183 | CI=250.0 | CS=742.5 | U=965.0 | vivos=66
+PASO 143 | extraido N188 | CI=250.0 | CS=742.5 | U=965.0 | vivos=65
+PASO 144 | extraido N139 | CI=250.0 | CS=825.0 | U=965.0 | vivos=64
+PASO 145 | extraido N110 | CI=250.0 | CS=842.5 | U=965.0 | vivos=63
+PASO 146 | extraido N132 | CI=252.5 | CS=745.0 | U=965.0 | vivos=64
+PASO 147 | extraido N117 | CI=252.5 | CS=845.0 | U=965.0 | vivos=63
+PASO 148 | extraido N206 | CI=252.5 | CS=882.5 | U=965.0 | vivos=64
+PASO 149 | extraido N192 | CI=252.5 | CS=925.0 | U=965.0 | vivos=63
+PASO 150 | extraido N137 | CI=255.0 | CS=747.5 | U=965.0 | vivos=64
+PASO 151 | extraido N195 | CI=255.0 | CS=747.5 | U=965.0 | vivos=63
+PASO 152 | extraido N197 | CI=255.0 | CS=827.5 | U=965.0 | vivos=62
+PASO 153 | extraido N203 | CI=255.0 | CS=830.0 | U=965.0 | vivos=61
+PASO 154 | extraido N199 | CI=257.5 | CS=750.0 | U=965.0 | vivos=60
+PASO 155 | extraido N201 | CI=257.5 | CS=830.0 | U=965.0 | vivos=59
+PASO 156 | extraido N211 | CI=257.5 | CS=887.5 | U=965.0 | vivos=58
+PASO 157 | extraido N149 | CI=260.0 | CS=752.5 | U=965.0 | vivos=57
+PASO 158 | extraido N154 | CI=260.0 | CS=752.5 | U=965.0 | vivos=56
+PASO 159 | extraido N156 | CI=260.0 | CS=832.5 | U=965.0 | vivos=55
+PASO 160 | extraido N208 | CI=260.0 | CS=835.0 | U=965.0 | vivos=54
+PASO 161 | extraido N125 | CI=260.0 | CS=852.5 | U=965.0 | vivos=53
+PASO 162 | extraido N158 | CI=262.5 | CS=755.0 | U=965.0 | vivos=54
+PASO 163 | extraido N213 | CI=265.0 | CS=757.5 | U=965.0 | vivos=53
+PASO 164 | extraido N216 | CI=265.0 | CS=857.5 | U=965.0 | vivos=52
+PASO 165 | extraido N189 | CI=265.0 | CS=925.0 | U=965.0 | vivos=53
+PASO 166 | extraido N255 | CI=265.0 | CS=857.5 | U=965.0 | vivos=55
+PASO 167 | extraido N228 | CI=267.5 | CS=860.0 | U=965.0 | vivos=56
+PASO 168 | extraido N233 | CI=267.5 | CS=860.0 | U=965.0 | vivos=57
+PASO 169 | extraido N160 | CI=270.0 | CS=762.5 | U=965.0 | vivos=58
+PASO 170 | extraido N165 | CI=270.0 | CS=762.5 | U=965.0 | vivos=57
+PASO 171 | extraido N215 | CI=270.0 | CS=762.5 | U=965.0 | vivos=56
+PASO 172 | extraido N220 | CI=270.0 | CS=762.5 | U=965.0 | vivos=55
+PASO 173 | extraido N222 | CI=272.5 | CS=765.0 | U=965.0 | vivos=54
+PASO 174 | extraido N224 | CI=272.5 | CS=765.0 | U=965.0 | vivos=53
+PASO 175 | extraido N232 | CI=272.5 | CS=765.0 | U=965.0 | vivos=52
+PASO 176 | extraido N237 | CI=272.5 | CS=765.0 | U=965.0 | vivos=51
+PASO 177 | extraido N153 | CI=272.5 | CS=865.0 | U=965.0 | vivos=50
+PASO 178 | extraido N167 | CI=275.0 | CS=767.5 | U=965.0 | vivos=51
+PASO 179 | extraido N99 | CI=275.0 | CS=850.0 | U=965.0 | vivos=50
+PASO 180 | extraido N205 | CI=275.0 | CS=905.0 | U=965.0 | vivos=49
+PASO 181 | extraido N174 | CI=277.5 | CS=770.0 | U=965.0 | vivos=48
+PASO 182 | extraido N182 | CI=277.5 | CS=770.0 | U=965.0 | vivos=47
+PASO 183 | extraido N187 | CI=277.5 | CS=770.0 | U=965.0 | vivos=46
+PASO 184 | extraido N239 | CI=277.5 | CS=770.0 | U=965.0 | vivos=45
+PASO 185 | extraido N241 | CI=280.0 | CS=772.5 | U=965.0 | vivos=44
+PASO 186 | extraido N246 | CI=280.0 | CS=852.5 | U=965.0 | vivos=43
+PASO 187 | extraido N202 | CI=280.0 | CS=855.0 | U=965.0 | vivos=42
+PASO 188 | extraido N210 | CI=280.0 | CS=910.0 | U=965.0 | vivos=41
+PASO 189 | extraido N194 | CI=282.5 | CS=775.0 | U=965.0 | vivos=40
+PASO 190 | extraido N196 | CI=282.5 | CS=855.0 | U=965.0 | vivos=39
+PASO 191 | extraido N164 | CI=282.5 | CS=875.0 | U=965.0 | vivos=38
+PASO 192 | extraido N146 | CI=282.5 | CS=942.5 | U=965.0 | vivos=39
+PASO 193 | extraido N274 | CI=282.5 | CS=875.0 | U=965.0 | vivos=41
+PASO 194 | extraido N198 | CI=285.0 | CS=777.5 | U=965.0 | vivos=42
+PASO 195 | extraido N200 | CI=285.0 | CS=857.5 | U=965.0 | vivos=41
+PASO 196 | extraido N207 | CI=285.0 | CS=860.0 | U=965.0 | vivos=40
+PASO 197 | extraido N251 | CI=287.5 | CS=780.0 | U=965.0 | vivos=39
+PASO 198 | extraido N254 | CI=287.5 | CS=880.0 | U=965.0 | vivos=38
+PASO 199 | extraido N181 | CI=290.0 | CS=882.5 | U=965.0 | vivos=39
+PASO 200 | extraido N186 | CI=290.0 | CS=882.5 | U=965.0 | vivos=40
+PASO 201 | extraido N107 | CI=290.0 | CS=965.0 | U=965.0 | vivos=41
+PASO 202 | extraido N212 | CI=292.5 | CS=785.0 | U=965.0 | vivos=45
+PASO 203 | extraido N253 | CI=292.5 | CS=785.0 | U=965.0 | vivos=44
+PASO 204 | extraido N258 | CI=292.5 | CS=785.0 | U=965.0 | vivos=43
+PASO 205 | extraido N260 | CI=295.0 | CS=787.5 | U=965.0 | vivos=42
+PASO 206 | extraido N262 | CI=295.0 | CS=787.5 | U=965.0 | vivos=41
+PASO 207 | extraido N214 | CI=297.5 | CS=790.0 | U=965.0 | vivos=40
+PASO 208 | extraido N219 | CI=297.5 | CS=790.0 | U=965.0 | vivos=39
+PASO 209 | extraido N221 | CI=300.0 | CS=792.5 | U=965.0 | vivos=38
+PASO 210 | extraido N223 | CI=300.0 | CS=792.5 | U=965.0 | vivos=37
+PASO 211 | extraido N231 | CI=300.0 | CS=792.5 | U=965.0 | vivos=36
+PASO 212 | extraido N236 | CI=300.0 | CS=792.5 | U=965.0 | vivos=35
+PASO 213 | extraido N264 | CI=300.0 | CS=792.5 | U=965.0 | vivos=34
+PASO 214 | extraido N141 | CI=300.0 | CS=875.0 | U=965.0 | vivos=33
+PASO 215 | extraido N238 | CI=305.0 | CS=797.5 | U=965.0 | vivos=32
+PASO 216 | extraido N273 | CI=305.0 | CS=897.5 | U=965.0 | vivos=31
+PASO 217 | extraido N191 | CI=305.0 | CS=965.0 | U=965.0 | vivos=32
+PASO 218 | extraido N292 | CI=305.0 | CS=897.5 | U=965.0 | vivos=34
+PASO 219 | extraido N240 | CI=307.5 | CS=800.0 | U=965.0 | vivos=35
+PASO 220 | extraido N245 | CI=307.5 | CS=880.0 | U=965.0 | vivos=34
+PASO 221 | extraido N272 | CI=310.0 | CS=802.5 | U=965.0 | vivos=33
+PASO 222 | extraido N277 | CI=310.0 | CS=802.5 | U=965.0 | vivos=32
+PASO 223 | extraido N218 | CI=310.0 | CS=902.5 | U=965.0 | vivos=31
+PASO 224 | extraido N230 | CI=312.5 | CS=905.0 | U=965.0 | vivos=32
+PASO 225 | extraido N235 | CI=312.5 | CS=905.0 | U=965.0 | vivos=33
+PASO 226 | extraido N288 | CI=312.5 | CS=942.5 | U=965.0 | vivos=34
+PASO 227 | extraido N250 | CI=315.0 | CS=807.5 | U=965.0 | vivos=33
+PASO 228 | extraido N279 | CI=315.0 | CS=807.5 | U=965.0 | vivos=32
+PASO 229 | extraido N285 | CI=315.0 | CS=890.0 | U=965.0 | vivos=31
+PASO 230 | extraido N281 | CI=317.5 | CS=810.0 | U=965.0 | vivos=30
+PASO 231 | extraido N283 | CI=317.5 | CS=810.0 | U=965.0 | vivos=29
+PASO 232 | extraido N252 | CI=320.0 | CS=812.5 | U=965.0 | vivos=28
+PASO 233 | extraido N257 | CI=320.0 | CS=812.5 | U=965.0 | vivos=27
+PASO 234 | extraido N259 | CI=322.5 | CS=815.0 | U=965.0 | vivos=26
+PASO 235 | extraido N261 | CI=322.5 | CS=815.0 | U=965.0 | vivos=25
+PASO 236 | extraido N263 | CI=327.5 | CS=820.0 | U=965.0 | vivos=24
+PASO 237 | extraido N291 | CI=327.5 | CS=920.0 | U=965.0 | vivos=23
+PASO 238 | extraido N204 | CI=330.0 | CS=905.0 | U=965.0 | vivos=24
+PASO 239 | extraido N290 | CI=332.5 | CS=825.0 | U=965.0 | vivos=23
+PASO 240 | extraido N295 | CI=332.5 | CS=825.0 | U=965.0 | vivos=22
+PASO 241 | extraido N256 | CI=332.5 | CS=925.0 | U=965.0 | vivos=21
+PASO 242 | extraido N209 | CI=335.0 | CS=910.0 | U=965.0 | vivos=22
+PASO 243 | extraido N287 | CI=335.0 | CS=965.0 | U=965.0 | vivos=21
+PASO 244 | extraido N271 | CI=337.5 | CS=830.0 | U=965.0 | vivos=20
+PASO 245 | extraido N276 | CI=337.5 | CS=830.0 | U=965.0 | vivos=19
+PASO 246 | extraido N297 | CI=337.5 | CS=830.0 | U=965.0 | vivos=18
+PASO 247 | extraido N299 | CI=340.0 | CS=832.5 | U=965.0 | vivos=17
+PASO 248 | extraido N301 | CI=340.0 | CS=832.5 | U=965.0 | vivos=16
+PASO 249 | extraido N284 | CI=340.0 | CS=915.0 | U=965.0 | vivos=15
+PASO 250 | extraido N278 | CI=342.5 | CS=835.0 | U=965.0 | vivos=14
+PASO 251 | extraido N280 | CI=345.0 | CS=837.5 | U=965.0 | vivos=13
+PASO 252 | extraido N282 | CI=345.0 | CS=837.5 | U=965.0 | vivos=12
+PASO 253 | extraido N275 | CI=350.0 | CS=942.5 | U=965.0 | vivos=11
+PASO 254 | extraido N306 | CI=355.0 | CS=847.5 | U=965.0 | vivos=12
+PASO 255 | extraido N289 | CI=360.0 | CS=852.5 | U=965.0 | vivos=11
+PASO 256 | extraido N294 | CI=360.0 | CS=852.5 | U=965.0 | vivos=10
+PASO 257 | extraido N308 | CI=360.0 | CS=852.5 | U=965.0 | vivos=9
+PASO 258 | extraido N296 | CI=365.0 | CS=857.5 | U=965.0 | vivos=8
+PASO 259 | extraido N298 | CI=367.5 | CS=860.0 | U=965.0 | vivos=7
+PASO 260 | extraido N300 | CI=367.5 | CS=860.0 | U=965.0 | vivos=6
+PASO 261 | extraido N293 | CI=372.5 | CS=965.0 | U=965.0 | vivos=5
+PASO 262 | extraido N313 | CI=377.5 | CS=870.0 | U=965.0 | vivos=6
+PASO 263 | extraido N305 | CI=382.5 | CS=875.0 | U=965.0 | vivos=5
+PASO 264 | extraido N307 | CI=387.5 | CS=880.0 | U=965.0 | vivos=4
+PASO 265 | extraido N286 | CI=390.0 | CS=965.0 | U=965.0 | vivos=3
+PASO 266 | extraido N315 | CI=400.0 | CS=892.5 | U=965.0 | vivos=2
+PASO 267 | extraido N312 | CI=405.0 | CS=897.5 | U=965.0 | vivos=1
+PASO 268 | extraido N314 | CI=427.5 | CS=920.0 | U=965.0 | vivos=0
+
+SIN SOLUCION. Ruta mas cercana a Aula 348 (distancia=15.811388300841896)
+Aula 348 -> Hall Norte | S | bateria=97.8 | t=30.0
+Hall Norte -> Biblioteca | C | bateria=96.88 | t=85.0
+Biblioteca -> Sala Estudio | S | bateria=95.23 | t=107.5
+Sala Estudio -> Kiosco | S | bateria=93.77 | t=127.5
+
+ARBOL DE EXPLORACION
+N0 | Aula 348 N (0.0,0.0) | t=0.0 | bat=100.0 | CI=60.0 | CS=965.0 | EXPANDIDO | orden=1
+  N1 | Hall Norte C (120.0,10.0) | t=60.0 | bat=99.0 | CI=120.0 | CS=905.0 | EXPANDIDO | orden=7
+    N25 | Pasillo Este C (150.0,40.0) | t=105.0 | bat=98.25 | CI=165.0 | CS=905.0 | EXPANDIDO | orden=28
+      N76 | Aula 301 C (180.0,20.0) | t=145.0 | bat=98.38 | CI=205.0 | CS=865.0 | EXPANDIDO | orden=75
+        N151 | Cafeteria C (170.0,80.0) | t=190.0 | bat=97.63 | CI=227.5 | CS=820.0 | EXPANDIDO | orden=108
+          N194 | Terraza C (130.0,100.0) | t=245.0 | bat=96.72 | CI=282.5 | CS=775.0 | EXPANDIDO | orden=189
+          N195 | Terraza S (130.0,100.0) | t=217.5 | bat=95.62 | CI=255.0 | CS=747.5 | EXPANDIDO | orden=151
+        N152 | Cafeteria S (170.0,80.0) | t=167.5 | bat=96.73 | CI=205.0 | CS=797.5 | EXPANDIDO | orden=76
+          N154 | Terraza C (130.0,100.0) | t=222.5 | bat=95.82 | CI=260.0 | CS=752.5 | EXPANDIDO | orden=158
+          N155 | Terraza S (130.0,100.0) | t=195.0 | bat=94.72 | CI=232.5 | CS=725.0 | EXPANDIDO | orden=117
+        N153 | Cafeteria P (170.0,80.0) | t=235.0 | bat=98.05 | CI=272.5 | CS=865.0 | EXPANDIDO | orden=177
+          N263 | Terraza C (130.0,100.0) | t=290.0 | bat=97.13 | CI=327.5 | CS=820.0 | EXPANDIDO | orden=236
+          N264 | Terraza S (130.0,100.0) | t=262.5 | bat=96.03 | CI=300.0 | CS=792.5 | EXPANDIDO | orden=213
+      N77 | Aula 301 S (180.0,20.0) | t=125.0 | bat=97.58 | CI=185.0 | CS=845.0 | EXPANDIDO | orden=49
+        N115 | Cafeteria C (170.0,80.0) | t=170.0 | bat=96.83 | CI=207.5 | CS=800.0 | EXPANDIDO | orden=79
+          N158 | Terraza C (130.0,100.0) | t=225.0 | bat=95.92 | CI=262.5 | CS=755.0 | EXPANDIDO | orden=162
+          N159 | Terraza S (130.0,100.0) | t=197.5 | bat=94.82 | CI=235.0 | CS=727.5 | EXPANDIDO | orden=119
+        N116 | Cafeteria S (170.0,80.0) | t=147.5 | bat=95.93 | CI=185.0 | CS=777.5 | EXPANDIDO | orden=50
+          N118 | Terraza C (130.0,100.0) | t=202.5 | bat=95.02 | CI=240.0 | CS=732.5 | EXPANDIDO | orden=124
+          N119 | Terraza S (130.0,100.0) | t=175.0 | bat=93.92 | CI=212.5 | CS=705.0 | EXPANDIDO | orden=84
+        N117 | Cafeteria P (170.0,80.0) | t=215.0 | bat=97.25 | CI=252.5 | CS=845.0 | EXPANDIDO | orden=147
+          N240 | Terraza C (130.0,100.0) | t=270.0 | bat=96.33 | CI=307.5 | CS=800.0 | EXPANDIDO | orden=219
+          N241 | Terraza S (130.0,100.0) | t=242.5 | bat=95.23 | CI=280.0 | CS=772.5 | EXPANDIDO | orden=185
+      N78 | Aula 301 P (180.0,20.0) | t=185.0 | bat=98.75 | CI=245.0 | CS=905.0 | EXPANDIDO | orden=134
+        N228 | Cafeteria C (170.0,80.0) | t=230.0 | bat=98.0 | CI=267.5 | CS=860.0 | EXPANDIDO | orden=167
+          N259 | Terraza C (130.0,100.0) | t=285.0 | bat=97.08 | CI=322.5 | CS=815.0 | EXPANDIDO | orden=234
+          N260 | Terraza S (130.0,100.0) | t=257.5 | bat=95.98 | CI=295.0 | CS=787.5 | EXPANDIDO | orden=205
+        N229 | Cafeteria S (170.0,80.0) | t=207.5 | bat=97.1 | CI=245.0 | CS=837.5 | EXPANDIDO | orden=135
+          N231 | Terraza C (130.0,100.0) | t=262.5 | bat=96.18 | CI=300.0 | CS=792.5 | EXPANDIDO | orden=211
+          N232 | Terraza S (130.0,100.0) | t=235.0 | bat=95.08 | CI=272.5 | CS=765.0 | EXPANDIDO | orden=175
+        N230 | Cafeteria P (170.0,80.0) | t=275.0 | bat=98.41 | CI=312.5 | CS=905.0 | EXPANDIDO | orden=224
+          N298 | Terraza C (130.0,100.0) | t=330.0 | bat=97.5 | CI=367.5 | CS=860.0 | EXPANDIDO | orden=259
+          N299 | Terraza S (130.0,100.0) | t=302.5 | bat=96.4 | CI=340.0 | CS=832.5 | EXPANDIDO | orden=247
+      N79 | Cafeteria C (170.0,80.0) | t=155.0 | bat=97.42 | CI=192.5 | CS=865.0 | EXPANDIDO | orden=58
+        N128 | Terraza C (130.0,100.0) | t=210.0 | bat=96.5 | CI=247.5 | CS=820.0 | EXPANDIDO | orden=140
+        N129 | Terraza S (130.0,100.0) | t=182.5 | bat=95.4 | CI=220.0 | CS=792.5 | EXPANDIDO | orden=91
+      N80 | Cafeteria S (170.0,80.0) | t=130.0 | bat=96.42 | CI=167.5 | CS=840.0 | EXPANDIDO | orden=32
+        N86 | Terraza C (130.0,100.0) | t=185.0 | bat=95.5 | CI=222.5 | CS=795.0 | EXPANDIDO | orden=95
+        N87 | Terraza S (130.0,100.0) | t=157.5 | bat=94.4 | CI=195.0 | CS=767.5 | EXPANDIDO | orden=60
+    N26 | Pasillo Este S (150.0,40.0) | t=82.5 | bat=97.35 | CI=142.5 | CS=882.5 | EXPANDIDO | orden=15
+      N45 | Aula 301 C (180.0,20.0) | t=122.5 | bat=97.48 | CI=182.5 | CS=842.5 | EXPANDIDO | orden=46
+        N108 | Cafeteria C (170.0,80.0) | t=167.5 | bat=96.73 | CI=205.0 | CS=797.5 | EXPANDIDO | orden=74
+          N149 | Terraza C (130.0,100.0) | t=222.5 | bat=95.82 | CI=260.0 | CS=752.5 | EXPANDIDO | orden=157
+          N150 | Terraza S (130.0,100.0) | t=195.0 | bat=94.72 | CI=232.5 | CS=725.0 | EXPANDIDO | orden=116
+        N109 | Cafeteria S (170.0,80.0) | t=145.0 | bat=95.83 | CI=182.5 | CS=775.0 | EXPANDIDO | orden=47
+          N111 | Terraza C (130.0,100.0) | t=200.0 | bat=94.92 | CI=237.5 | CS=730.0 | EXPANDIDO | orden=121
+          N112 | Terraza S (130.0,100.0) | t=172.5 | bat=93.82 | CI=210.0 | CS=702.5 | EXPANDIDO | orden=82
+        N110 | Cafeteria P (170.0,80.0) | t=212.5 | bat=97.15 | CI=250.0 | CS=842.5 | EXPANDIDO | orden=145
+          N238 | Terraza C (130.0,100.0) | t=267.5 | bat=96.23 | CI=305.0 | CS=797.5 | EXPANDIDO | orden=215
+          N239 | Terraza S (130.0,100.0) | t=240.0 | bat=95.13 | CI=277.5 | CS=770.0 | EXPANDIDO | orden=184
+      N46 | Aula 301 S (180.0,20.0) | t=102.5 | bat=96.68 | CI=162.5 | CS=822.5 | EXPANDIDO | orden=24
+        N69 | Cafeteria C (170.0,80.0) | t=147.5 | bat=95.93 | CI=185.0 | CS=777.5 | EXPANDIDO | orden=48
+          N113 | Terraza C (130.0,100.0) | t=202.5 | bat=95.02 | CI=240.0 | CS=732.5 | EXPANDIDO | orden=123
+          N114 | Terraza S (130.0,100.0) | t=175.0 | bat=93.92 | CI=212.5 | CS=705.0 | EXPANDIDO | orden=83
+        N70 | Cafeteria S (170.0,80.0) | t=125.0 | bat=95.03 | CI=162.5 | CS=755.0 | EXPANDIDO | orden=25
+          N72 | Terraza C (130.0,100.0) | t=180.0 | bat=94.12 | CI=217.5 | CS=710.0 | EXPANDIDO | orden=88
+          N73 | Terraza S (130.0,100.0) | t=152.5 | bat=93.02 | CI=190.0 | CS=682.5 | EXPANDIDO | orden=52
+        N71 | Cafeteria P (170.0,80.0) | t=192.5 | bat=96.35 | CI=230.0 | CS=822.5 | EXPANDIDO | orden=112
+          N198 | Terraza C (130.0,100.0) | t=247.5 | bat=95.43 | CI=285.0 | CS=777.5 | EXPANDIDO | orden=194
+          N199 | Terraza S (130.0,100.0) | t=220.0 | bat=94.33 | CI=257.5 | CS=750.0 | EXPANDIDO | orden=154
+      N47 | Aula 301 P (180.0,20.0) | t=162.5 | bat=97.85 | CI=222.5 | CS=882.5 | EXPANDIDO | orden=98
+        N179 | Cafeteria C (170.0,80.0) | t=207.5 | bat=97.1 | CI=245.0 | CS=837.5 | EXPANDIDO | orden=131
+          N221 | Terraza C (130.0,100.0) | t=262.5 | bat=96.18 | CI=300.0 | CS=792.5 | EXPANDIDO | orden=209
+          N222 | Terraza S (130.0,100.0) | t=235.0 | bat=95.08 | CI=272.5 | CS=765.0 | EXPANDIDO | orden=173
+        N180 | Cafeteria S (170.0,80.0) | t=185.0 | bat=96.2 | CI=222.5 | CS=815.0 | EXPANDIDO | orden=99
+          N182 | Terraza C (130.0,100.0) | t=240.0 | bat=95.28 | CI=277.5 | CS=770.0 | EXPANDIDO | orden=182
+          N183 | Terraza S (130.0,100.0) | t=212.5 | bat=94.18 | CI=250.0 | CS=742.5 | EXPANDIDO | orden=142
+        N181 | Cafeteria P (170.0,80.0) | t=252.5 | bat=97.51 | CI=290.0 | CS=882.5 | EXPANDIDO | orden=199
+          N280 | Terraza C (130.0,100.0) | t=307.5 | bat=96.6 | CI=345.0 | CS=837.5 | EXPANDIDO | orden=251
+          N281 | Terraza S (130.0,100.0) | t=280.0 | bat=95.5 | CI=317.5 | CS=810.0 | EXPANDIDO | orden=230
+      N48 | Cafeteria C (170.0,80.0) | t=132.5 | bat=96.52 | CI=170.0 | CS=842.5 | EXPANDIDO | orden=35
+        N88 | Terraza C (130.0,100.0) | t=187.5 | bat=95.6 | CI=225.0 | CS=797.5 | EXPANDIDO | orden=103
+        N89 | Terraza S (130.0,100.0) | t=160.0 | bat=94.5 | CI=197.5 | CS=770.0 | EXPANDIDO | orden=63
+      N49 | Cafeteria S (170.0,80.0) | t=107.5 | bat=95.52 | CI=145.0 | CS=817.5 | EXPANDIDO | orden=16
+        N50 | Terraza C (130.0,100.0) | t=162.5 | bat=94.6 | CI=200.0 | CS=772.5 | EXPANDIDO | orden=66
+        N51 | Terraza S (130.0,100.0) | t=135.0 | bat=93.5 | CI=172.5 | CS=745.0 | EXPANDIDO | orden=36
+    N27 | Biblioteca C (90.0,70.0) | t=115.0 | bat=98.08 | CI=175.0 | CS=850.0 | EXPANDIDO | orden=40
+      N97 | Terraza C (130.0,100.0) | t=165.0 | bat=97.25 | CI=225.0 | CS=800.0 | EXPANDIDO | orden=104
+      N98 | Terraza S (130.0,100.0) | t=140.0 | bat=96.25 | CI=200.0 | CS=775.0 | EXPANDIDO | orden=67
+      N99 | Terraza P (130.0,100.0) | t=215.0 | bat=97.71 | CI=275.0 | CS=850.0 | EXPANDIDO | orden=179
+      N100 | Sala Estudio C (50.0,60.0) | t=160.0 | bat=97.33 | CI=220.0 | CS=850.0 | EXPANDIDO | orden=93
+        N169 | Kiosco C (15.0,5.0) | t=200.0 | bat=96.67 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N170 | Kiosco S (15.0,5.0) | t=180.0 | bat=95.87 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N171 | Kiosco P (15.0,5.0) | t=240.0 | bat=97.03 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+      N101 | Sala Estudio S (50.0,60.0) | t=137.5 | bat=96.43 | CI=197.5 | CS=827.5 | EXPANDIDO | orden=65
+        N134 | Kiosco C (15.0,5.0) | t=177.5 | bat=95.77 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N135 | Kiosco S (15.0,5.0) | t=157.5 | bat=94.97 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N136 | Kiosco P (15.0,5.0) | t=217.5 | bat=96.13 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+    N28 | Biblioteca P (90.0,70.0) | t=170.0 | bat=98.59 | CI=230.0 | CS=905.0 | EXPANDIDO | orden=114
+      N202 | Terraza C (130.0,100.0) | t=220.0 | bat=97.75 | CI=280.0 | CS=855.0 | EXPANDIDO | orden=187
+      N203 | Terraza S (130.0,100.0) | t=195.0 | bat=96.75 | CI=255.0 | CS=830.0 | EXPANDIDO | orden=153
+      N204 | Terraza P (130.0,100.0) | t=270.0 | bat=98.21 | CI=330.0 | CS=905.0 | EXPANDIDO | orden=238
+      N205 | Sala Estudio C (50.0,60.0) | t=215.0 | bat=97.84 | CI=275.0 | CS=905.0 | EXPANDIDO | orden=180
+        N265 | Kiosco C (15.0,5.0) | t=255.0 | bat=97.17 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N266 | Kiosco S (15.0,5.0) | t=235.0 | bat=96.37 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N267 | Kiosco P (15.0,5.0) | t=295.0 | bat=97.54 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+      N206 | Sala Estudio S (50.0,60.0) | t=192.5 | bat=96.94 | CI=252.5 | CS=882.5 | EXPANDIDO | orden=148
+        N242 | Kiosco C (15.0,5.0) | t=232.5 | bat=96.27 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N243 | Kiosco S (15.0,5.0) | t=212.5 | bat=95.47 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N244 | Kiosco P (15.0,5.0) | t=272.5 | bat=96.64 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+  N2 | Hall Norte S (120.0,10.0) | t=30.0 | bat=97.8 | CI=90.0 | CS=875.0 | EXPANDIDO | orden=3
+    N10 | Pasillo Este C (150.0,40.0) | t=75.0 | bat=97.05 | CI=135.0 | CS=875.0 | EXPANDIDO | orden=10
+      N34 | Aula 301 C (180.0,20.0) | t=115.0 | bat=97.18 | CI=175.0 | CS=835.0 | EXPANDIDO | orden=38
+        N92 | Cafeteria C (170.0,80.0) | t=160.0 | bat=96.43 | CI=197.5 | CS=790.0 | EXPANDIDO | orden=64
+          N132 | Terraza C (130.0,100.0) | t=215.0 | bat=95.52 | CI=252.5 | CS=745.0 | EXPANDIDO | orden=146
+          N133 | Terraza S (130.0,100.0) | t=187.5 | bat=94.42 | CI=225.0 | CS=717.5 | EXPANDIDO | orden=102
+        N93 | Cafeteria S (170.0,80.0) | t=137.5 | bat=95.53 | CI=175.0 | CS=767.5 | EXPANDIDO | orden=39
+          N95 | Terraza C (130.0,100.0) | t=192.5 | bat=94.62 | CI=230.0 | CS=722.5 | EXPANDIDO | orden=111
+          N96 | Terraza S (130.0,100.0) | t=165.0 | bat=93.52 | CI=202.5 | CS=695.0 | EXPANDIDO | orden=71
+        N94 | Cafeteria P (170.0,80.0) | t=205.0 | bat=96.85 | CI=242.5 | CS=835.0 | EXPANDIDO | orden=127
+          N214 | Terraza C (130.0,100.0) | t=260.0 | bat=95.93 | CI=297.5 | CS=790.0 | EXPANDIDO | orden=207
+          N215 | Terraza S (130.0,100.0) | t=232.5 | bat=94.83 | CI=270.0 | CS=762.5 | EXPANDIDO | orden=171
+      N35 | Aula 301 S (180.0,20.0) | t=95.0 | bat=96.38 | CI=155.0 | CS=815.0 | EXPANDIDO | orden=21
+        N64 | Cafeteria C (170.0,80.0) | t=140.0 | bat=95.63 | CI=177.5 | CS=770.0 | EXPANDIDO | orden=41
+          N102 | Terraza C (130.0,100.0) | t=195.0 | bat=94.72 | CI=232.5 | CS=725.0 | EXPANDIDO | orden=115
+          N103 | Terraza S (130.0,100.0) | t=167.5 | bat=93.62 | CI=205.0 | CS=697.5 | EXPANDIDO | orden=73
+        N65 | Cafeteria S (170.0,80.0) | t=117.5 | bat=94.73 | CI=155.0 | CS=747.5 | EXPANDIDO | orden=22
+          N67 | Terraza C (130.0,100.0) | t=172.5 | bat=93.82 | CI=210.0 | CS=702.5 | EXPANDIDO | orden=81
+          N68 | Terraza S (130.0,100.0) | t=145.0 | bat=92.72 | CI=182.5 | CS=675.0 | EXPANDIDO | orden=45
+        N66 | Cafeteria P (170.0,80.0) | t=185.0 | bat=96.05 | CI=222.5 | CS=815.0 | EXPANDIDO | orden=96
+          N174 | Terraza C (130.0,100.0) | t=240.0 | bat=95.13 | CI=277.5 | CS=770.0 | EXPANDIDO | orden=181
+          N175 | Terraza S (130.0,100.0) | t=212.5 | bat=94.03 | CI=250.0 | CS=742.5 | EXPANDIDO | orden=141
+      N36 | Aula 301 P (180.0,20.0) | t=155.0 | bat=97.55 | CI=215.0 | CS=875.0 | EXPANDIDO | orden=86
+        N162 | Cafeteria C (170.0,80.0) | t=200.0 | bat=96.8 | CI=237.5 | CS=830.0 | EXPANDIDO | orden=122
+          N212 | Terraza C (130.0,100.0) | t=255.0 | bat=95.88 | CI=292.5 | CS=785.0 | EXPANDIDO | orden=202
+          N213 | Terraza S (130.0,100.0) | t=227.5 | bat=94.78 | CI=265.0 | CS=757.5 | EXPANDIDO | orden=163
+        N163 | Cafeteria S (170.0,80.0) | t=177.5 | bat=95.9 | CI=215.0 | CS=807.5 | EXPANDIDO | orden=87
+          N165 | Terraza C (130.0,100.0) | t=232.5 | bat=94.98 | CI=270.0 | CS=762.5 | EXPANDIDO | orden=170
+          N166 | Terraza S (130.0,100.0) | t=205.0 | bat=93.88 | CI=242.5 | CS=735.0 | EXPANDIDO | orden=126
+        N164 | Cafeteria P (170.0,80.0) | t=245.0 | bat=97.21 | CI=282.5 | CS=875.0 | EXPANDIDO | orden=191
+          N271 | Terraza C (130.0,100.0) | t=300.0 | bat=96.3 | CI=337.5 | CS=830.0 | EXPANDIDO | orden=244
+          N272 | Terraza S (130.0,100.0) | t=272.5 | bat=95.2 | CI=310.0 | CS=802.5 | EXPANDIDO | orden=221
+      N37 | Cafeteria C (170.0,80.0) | t=125.0 | bat=96.22 | CI=162.5 | CS=835.0 | EXPANDIDO | orden=26
+        N74 | Terraza C (130.0,100.0) | t=180.0 | bat=95.3 | CI=217.5 | CS=790.0 | EXPANDIDO | orden=89
+        N75 | Terraza S (130.0,100.0) | t=152.5 | bat=94.2 | CI=190.0 | CS=762.5 | EXPANDIDO | orden=53
+      N38 | Cafeteria S (170.0,80.0) | t=100.0 | bat=95.22 | CI=137.5 | CS=810.0 | EXPANDIDO | orden=11
+        N39 | Terraza C (130.0,100.0) | t=155.0 | bat=94.3 | CI=192.5 | CS=765.0 | EXPANDIDO | orden=55
+        N40 | Terraza S (130.0,100.0) | t=127.5 | bat=93.2 | CI=165.0 | CS=737.5 | EXPANDIDO | orden=27
+    N11 | Pasillo Este S (150.0,40.0) | t=52.5 | bat=96.15 | CI=112.5 | CS=852.5 | EXPANDIDO | orden=5
+      N18 | Aula 301 C (180.0,20.0) | t=92.5 | bat=96.28 | CI=152.5 | CS=812.5 | EXPANDIDO | orden=18
+        N57 | Cafeteria C (170.0,80.0) | t=137.5 | bat=95.53 | CI=175.0 | CS=767.5 | EXPANDIDO | orden=37
+          N90 | Terraza C (130.0,100.0) | t=192.5 | bat=94.62 | CI=230.0 | CS=722.5 | EXPANDIDO | orden=110
+          N91 | Terraza S (130.0,100.0) | t=165.0 | bat=93.52 | CI=202.5 | CS=695.0 | EXPANDIDO | orden=70
+        N58 | Cafeteria S (170.0,80.0) | t=115.0 | bat=94.63 | CI=152.5 | CS=745.0 | EXPANDIDO | orden=19
+          N60 | Terraza C (130.0,100.0) | t=170.0 | bat=93.72 | CI=207.5 | CS=700.0 | EXPANDIDO | orden=78
+          N61 | Terraza S (130.0,100.0) | t=142.5 | bat=92.62 | CI=180.0 | CS=672.5 | EXPANDIDO | orden=42
+        N59 | Cafeteria P (170.0,80.0) | t=182.5 | bat=95.95 | CI=220.0 | CS=812.5 | EXPANDIDO | orden=92
+          N167 | Terraza C (130.0,100.0) | t=237.5 | bat=95.03 | CI=275.0 | CS=767.5 | EXPANDIDO | orden=178
+          N168 | Terraza S (130.0,100.0) | t=210.0 | bat=93.93 | CI=247.5 | CS=740.0 | EXPANDIDO | orden=139
+      N19 | Aula 301 S (180.0,20.0) | t=72.5 | bat=95.48 | CI=132.5 | CS=792.5 | EXPANDIDO | orden=8
+        N29 | Cafeteria C (170.0,80.0) | t=117.5 | bat=94.73 | CI=155.0 | CS=747.5 | EXPANDIDO | orden=20
+          N62 | Terraza C (130.0,100.0) | t=172.5 | bat=93.82 | CI=210.0 | CS=702.5 | EXPANDIDO | orden=80
+          N63 | Terraza S (130.0,100.0) | t=145.0 | bat=92.72 | CI=182.5 | CS=675.0 | EXPANDIDO | orden=44
+        N30 | Cafeteria S (170.0,80.0) | t=95.0 | bat=93.83 | CI=132.5 | CS=725.0 | EXPANDIDO | orden=9
+          N32 | Terraza C (130.0,100.0) | t=150.0 | bat=92.92 | CI=187.5 | CS=680.0 | EXPANDIDO | orden=51
+          N33 | Terraza S (130.0,100.0) | t=122.5 | bat=91.82 | CI=160.0 | CS=652.5 | EXPANDIDO | orden=23
+        N31 | Cafeteria P (170.0,80.0) | t=162.5 | bat=95.15 | CI=200.0 | CS=792.5 | EXPANDIDO | orden=68
+          N137 | Terraza C (130.0,100.0) | t=217.5 | bat=94.23 | CI=255.0 | CS=747.5 | EXPANDIDO | orden=150
+          N138 | Terraza S (130.0,100.0) | t=190.0 | bat=93.13 | CI=227.5 | CS=720.0 | EXPANDIDO | orden=107
+      N20 | Aula 301 P (180.0,20.0) | t=132.5 | bat=96.65 | CI=192.5 | CS=852.5 | EXPANDIDO | orden=56
+        N123 | Cafeteria C (170.0,80.0) | t=177.5 | bat=95.9 | CI=215.0 | CS=807.5 | EXPANDIDO | orden=85
+          N160 | Terraza C (130.0,100.0) | t=232.5 | bat=94.98 | CI=270.0 | CS=762.5 | EXPANDIDO | orden=169
+          N161 | Terraza S (130.0,100.0) | t=205.0 | bat=93.88 | CI=242.5 | CS=735.0 | EXPANDIDO | orden=125
+        N124 | Cafeteria S (170.0,80.0) | t=155.0 | bat=95.0 | CI=192.5 | CS=785.0 | EXPANDIDO | orden=57
+          N126 | Terraza C (130.0,100.0) | t=210.0 | bat=94.08 | CI=247.5 | CS=740.0 | EXPANDIDO | orden=138
+          N127 | Terraza S (130.0,100.0) | t=182.5 | bat=92.98 | CI=220.0 | CS=712.5 | EXPANDIDO | orden=90
+        N125 | Cafeteria P (170.0,80.0) | t=222.5 | bat=96.31 | CI=260.0 | CS=852.5 | EXPANDIDO | orden=161
+          N250 | Terraza C (130.0,100.0) | t=277.5 | bat=95.4 | CI=315.0 | CS=807.5 | EXPANDIDO | orden=227
+          N251 | Terraza S (130.0,100.0) | t=250.0 | bat=94.3 | CI=287.5 | CS=780.0 | EXPANDIDO | orden=197
+      N21 | Cafeteria C (170.0,80.0) | t=102.5 | bat=95.32 | CI=140.0 | CS=812.5 | EXPANDIDO | orden=12
+        N41 | Terraza C (130.0,100.0) | t=157.5 | bat=94.4 | CI=195.0 | CS=767.5 | EXPANDIDO | orden=59
+        N42 | Terraza S (130.0,100.0) | t=130.0 | bat=93.3 | CI=167.5 | CS=740.0 | EXPANDIDO | orden=30
+      N22 | Cafeteria S (170.0,80.0) | t=77.5 | bat=94.32 | CI=115.0 | CS=787.5 | EXPANDIDO | orden=6
+        N23 | Terraza C (130.0,100.0) | t=132.5 | bat=93.4 | CI=170.0 | CS=742.5 | EXPANDIDO | orden=33
+        N24 | Terraza S (130.0,100.0) | t=105.0 | bat=92.3 | CI=142.5 | CS=715.0 | EXPANDIDO | orden=14
+    N12 | Biblioteca C (90.0,70.0) | t=85.0 | bat=96.88 | CI=145.0 | CS=820.0 | EXPANDIDO | orden=17
+      N52 | Terraza C (130.0,100.0) | t=135.0 | bat=96.05 | CI=195.0 | CS=770.0 | EXPANDIDO | orden=61
+      N53 | Terraza S (130.0,100.0) | t=110.0 | bat=95.05 | CI=170.0 | CS=745.0 | EXPANDIDO | orden=34
+      N54 | Terraza P (130.0,100.0) | t=185.0 | bat=96.51 | CI=245.0 | CS=820.0 | EXPANDIDO | orden=130
+      N55 | Sala Estudio C (50.0,60.0) | t=130.0 | bat=96.13 | CI=190.0 | CS=820.0 | EXPANDIDO | orden=54
+        N120 | Kiosco C (15.0,5.0) | t=170.0 | bat=95.47 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N121 | Kiosco S (15.0,5.0) | t=150.0 | bat=94.67 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N122 | Kiosco P (15.0,5.0) | t=210.0 | bat=95.83 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+      N56 | Sala Estudio S (50.0,60.0) | t=107.5 | bat=95.23 | CI=167.5 | CS=797.5 | EXPANDIDO | orden=31
+        N83 | Kiosco C (15.0,5.0) | t=147.5 | bat=94.57 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N84 | Kiosco S (15.0,5.0) | t=127.5 | bat=93.77 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N85 | Kiosco P (15.0,5.0) | t=187.5 | bat=94.93 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+    N13 | Biblioteca P (90.0,70.0) | t=140.0 | bat=97.39 | CI=200.0 | CS=875.0 | EXPANDIDO | orden=69
+      N139 | Terraza C (130.0,100.0) | t=190.0 | bat=96.55 | CI=250.0 | CS=825.0 | EXPANDIDO | orden=144
+      N140 | Terraza S (130.0,100.0) | t=165.0 | bat=95.55 | CI=225.0 | CS=800.0 | EXPANDIDO | orden=105
+      N141 | Terraza P (130.0,100.0) | t=240.0 | bat=97.01 | CI=300.0 | CS=875.0 | EXPANDIDO | orden=214
+      N142 | Sala Estudio C (50.0,60.0) | t=185.0 | bat=96.64 | CI=245.0 | CS=875.0 | EXPANDIDO | orden=133
+        N225 | Kiosco C (15.0,5.0) | t=225.0 | bat=95.97 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N226 | Kiosco S (15.0,5.0) | t=205.0 | bat=95.17 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N227 | Kiosco P (15.0,5.0) | t=265.0 | bat=96.34 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+      N143 | Sala Estudio S (50.0,60.0) | t=162.5 | bat=95.74 | CI=222.5 | CS=852.5 | EXPANDIDO | orden=97
+        N176 | Kiosco C (15.0,5.0) | t=202.5 | bat=95.07 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N177 | Kiosco S (15.0,5.0) | t=182.5 | bat=94.27 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N178 | Kiosco P (15.0,5.0) | t=242.5 | bat=95.44 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+  N3 | Hall Norte P (120.0,10.0) | t=120.0 | bat=99.55 | CI=180.0 | CS=965.0 | EXPANDIDO | orden=43
+    N104 | Pasillo Este C (150.0,40.0) | t=165.0 | bat=98.8 | CI=225.0 | CS=965.0 | EXPANDIDO | orden=106
+      N189 | Aula 301 C (180.0,20.0) | t=205.0 | bat=98.93 | CI=265.0 | CS=925.0 | EXPANDIDO | orden=165
+        N254 | Cafeteria C (170.0,80.0) | t=250.0 | bat=98.18 | CI=287.5 | CS=880.0 | EXPANDIDO | orden=198
+          N278 | Terraza C (130.0,100.0) | t=305.0 | bat=97.27 | CI=342.5 | CS=835.0 | EXPANDIDO | orden=250
+          N279 | Terraza S (130.0,100.0) | t=277.5 | bat=96.17 | CI=315.0 | CS=807.5 | EXPANDIDO | orden=228
+        N255 | Cafeteria S (170.0,80.0) | t=227.5 | bat=97.28 | CI=265.0 | CS=857.5 | EXPANDIDO | orden=166
+          N257 | Terraza C (130.0,100.0) | t=282.5 | bat=96.37 | CI=320.0 | CS=812.5 | EXPANDIDO | orden=233
+          N258 | Terraza S (130.0,100.0) | t=255.0 | bat=95.27 | CI=292.5 | CS=785.0 | EXPANDIDO | orden=204
+        N256 | Cafeteria P (170.0,80.0) | t=295.0 | bat=98.6 | CI=332.5 | CS=925.0 | EXPANDIDO | orden=241
+          N307 | Terraza C (130.0,100.0) | t=350.0 | bat=97.68 | CI=387.5 | CS=880.0 | EXPANDIDO | orden=264
+          N308 | Terraza S (130.0,100.0) | t=322.5 | bat=96.58 | CI=360.0 | CS=852.5 | EXPANDIDO | orden=257
+      N190 | Aula 301 S (180.0,20.0) | t=185.0 | bat=98.13 | CI=245.0 | CS=905.0 | EXPANDIDO | orden=136
+        N233 | Cafeteria C (170.0,80.0) | t=230.0 | bat=97.38 | CI=267.5 | CS=860.0 | EXPANDIDO | orden=168
+          N261 | Terraza C (130.0,100.0) | t=285.0 | bat=96.47 | CI=322.5 | CS=815.0 | EXPANDIDO | orden=235
+          N262 | Terraza S (130.0,100.0) | t=257.5 | bat=95.37 | CI=295.0 | CS=787.5 | EXPANDIDO | orden=206
+        N234 | Cafeteria S (170.0,80.0) | t=207.5 | bat=96.48 | CI=245.0 | CS=837.5 | EXPANDIDO | orden=137
+          N236 | Terraza C (130.0,100.0) | t=262.5 | bat=95.57 | CI=300.0 | CS=792.5 | EXPANDIDO | orden=212
+          N237 | Terraza S (130.0,100.0) | t=235.0 | bat=94.47 | CI=272.5 | CS=765.0 | EXPANDIDO | orden=176
+        N235 | Cafeteria P (170.0,80.0) | t=275.0 | bat=97.8 | CI=312.5 | CS=905.0 | EXPANDIDO | orden=225
+          N300 | Terraza C (130.0,100.0) | t=330.0 | bat=96.88 | CI=367.5 | CS=860.0 | EXPANDIDO | orden=260
+          N301 | Terraza S (130.0,100.0) | t=302.5 | bat=95.78 | CI=340.0 | CS=832.5 | EXPANDIDO | orden=248
+      N191 | Aula 301 P (180.0,20.0) | t=245.0 | bat=99.3 | CI=305.0 | CS=965.0 | EXPANDIDO | orden=217
+        N291 | Cafeteria C (170.0,80.0) | t=290.0 | bat=98.55 | CI=327.5 | CS=920.0 | EXPANDIDO | orden=237
+          N305 | Terraza C (130.0,100.0) | t=345.0 | bat=97.63 | CI=382.5 | CS=875.0 | EXPANDIDO | orden=263
+          N306 | Terraza S (130.0,100.0) | t=317.5 | bat=96.53 | CI=355.0 | CS=847.5 | EXPANDIDO | orden=254
+        N292 | Cafeteria S (170.0,80.0) | t=267.5 | bat=97.65 | CI=305.0 | CS=897.5 | EXPANDIDO | orden=218
+          N294 | Terraza C (130.0,100.0) | t=322.5 | bat=96.73 | CI=360.0 | CS=852.5 | EXPANDIDO | orden=256
+          N295 | Terraza S (130.0,100.0) | t=295.0 | bat=95.63 | CI=332.5 | CS=825.0 | EXPANDIDO | orden=240
+        N293 | Cafeteria P (170.0,80.0) | t=335.0 | bat=98.96 | CI=372.5 | CS=965.0 | EXPANDIDO | orden=261
+          N314 | Terraza C (130.0,100.0) | t=390.0 | bat=98.05 | CI=427.5 | CS=920.0 | EXPANDIDO | orden=268
+          N315 | Terraza S (130.0,100.0) | t=362.5 | bat=96.95 | CI=400.0 | CS=892.5 | EXPANDIDO | orden=266
+      N192 | Cafeteria C (170.0,80.0) | t=215.0 | bat=97.97 | CI=252.5 | CS=925.0 | EXPANDIDO | orden=149
+        N245 | Terraza C (130.0,100.0) | t=270.0 | bat=97.05 | CI=307.5 | CS=880.0 | EXPANDIDO | orden=220
+        N246 | Terraza S (130.0,100.0) | t=242.5 | bat=95.95 | CI=280.0 | CS=852.5 | EXPANDIDO | orden=186
+      N193 | Cafeteria S (170.0,80.0) | t=190.0 | bat=96.97 | CI=227.5 | CS=900.0 | EXPANDIDO | orden=109
+        N196 | Terraza C (130.0,100.0) | t=245.0 | bat=96.05 | CI=282.5 | CS=855.0 | EXPANDIDO | orden=190
+        N197 | Terraza S (130.0,100.0) | t=217.5 | bat=94.95 | CI=255.0 | CS=827.5 | EXPANDIDO | orden=152
+    N105 | Pasillo Este S (150.0,40.0) | t=142.5 | bat=97.9 | CI=202.5 | CS=942.5 | EXPANDIDO | orden=72
+      N144 | Aula 301 C (180.0,20.0) | t=182.5 | bat=98.03 | CI=242.5 | CS=902.5 | EXPANDIDO | orden=128
+        N216 | Cafeteria C (170.0,80.0) | t=227.5 | bat=97.28 | CI=265.0 | CS=857.5 | EXPANDIDO | orden=164
+          N252 | Terraza C (130.0,100.0) | t=282.5 | bat=96.37 | CI=320.0 | CS=812.5 | EXPANDIDO | orden=232
+          N253 | Terraza S (130.0,100.0) | t=255.0 | bat=95.27 | CI=292.5 | CS=785.0 | EXPANDIDO | orden=203
+        N217 | Cafeteria S (170.0,80.0) | t=205.0 | bat=96.38 | CI=242.5 | CS=835.0 | EXPANDIDO | orden=129
+          N219 | Terraza C (130.0,100.0) | t=260.0 | bat=95.47 | CI=297.5 | CS=790.0 | EXPANDIDO | orden=208
+          N220 | Terraza S (130.0,100.0) | t=232.5 | bat=94.37 | CI=270.0 | CS=762.5 | EXPANDIDO | orden=172
+        N218 | Cafeteria P (170.0,80.0) | t=272.5 | bat=97.7 | CI=310.0 | CS=902.5 | EXPANDIDO | orden=223
+          N296 | Terraza C (130.0,100.0) | t=327.5 | bat=96.78 | CI=365.0 | CS=857.5 | EXPANDIDO | orden=258
+          N297 | Terraza S (130.0,100.0) | t=300.0 | bat=95.68 | CI=337.5 | CS=830.0 | EXPANDIDO | orden=246
+      N145 | Aula 301 S (180.0,20.0) | t=162.5 | bat=97.23 | CI=222.5 | CS=882.5 | EXPANDIDO | orden=100
+        N184 | Cafeteria C (170.0,80.0) | t=207.5 | bat=96.48 | CI=245.0 | CS=837.5 | EXPANDIDO | orden=132
+          N223 | Terraza C (130.0,100.0) | t=262.5 | bat=95.57 | CI=300.0 | CS=792.5 | EXPANDIDO | orden=210
+          N224 | Terraza S (130.0,100.0) | t=235.0 | bat=94.47 | CI=272.5 | CS=765.0 | EXPANDIDO | orden=174
+        N185 | Cafeteria S (170.0,80.0) | t=185.0 | bat=95.58 | CI=222.5 | CS=815.0 | EXPANDIDO | orden=101
+          N187 | Terraza C (130.0,100.0) | t=240.0 | bat=94.67 | CI=277.5 | CS=770.0 | EXPANDIDO | orden=183
+          N188 | Terraza S (130.0,100.0) | t=212.5 | bat=93.57 | CI=250.0 | CS=742.5 | EXPANDIDO | orden=143
+        N186 | Cafeteria P (170.0,80.0) | t=252.5 | bat=96.9 | CI=290.0 | CS=882.5 | EXPANDIDO | orden=200
+          N282 | Terraza C (130.0,100.0) | t=307.5 | bat=95.98 | CI=345.0 | CS=837.5 | EXPANDIDO | orden=252
+          N283 | Terraza S (130.0,100.0) | t=280.0 | bat=94.88 | CI=317.5 | CS=810.0 | EXPANDIDO | orden=231
+      N146 | Aula 301 P (180.0,20.0) | t=222.5 | bat=98.4 | CI=282.5 | CS=942.5 | EXPANDIDO | orden=192
+        N273 | Cafeteria C (170.0,80.0) | t=267.5 | bat=97.65 | CI=305.0 | CS=897.5 | EXPANDIDO | orden=216
+          N289 | Terraza C (130.0,100.0) | t=322.5 | bat=96.73 | CI=360.0 | CS=852.5 | EXPANDIDO | orden=255
+          N290 | Terraza S (130.0,100.0) | t=295.0 | bat=95.63 | CI=332.5 | CS=825.0 | EXPANDIDO | orden=239
+        N274 | Cafeteria S (170.0,80.0) | t=245.0 | bat=96.75 | CI=282.5 | CS=875.0 | EXPANDIDO | orden=193
+          N276 | Terraza C (130.0,100.0) | t=300.0 | bat=95.83 | CI=337.5 | CS=830.0 | EXPANDIDO | orden=245
+          N277 | Terraza S (130.0,100.0) | t=272.5 | bat=94.73 | CI=310.0 | CS=802.5 | EXPANDIDO | orden=222
+        N275 | Cafeteria P (170.0,80.0) | t=312.5 | bat=98.06 | CI=350.0 | CS=942.5 | EXPANDIDO | orden=253
+          N312 | Terraza C (130.0,100.0) | t=367.5 | bat=97.15 | CI=405.0 | CS=897.5 | EXPANDIDO | orden=267
+          N313 | Terraza S (130.0,100.0) | t=340.0 | bat=96.05 | CI=377.5 | CS=870.0 | EXPANDIDO | orden=262
+      N147 | Cafeteria C (170.0,80.0) | t=192.5 | bat=97.07 | CI=230.0 | CS=902.5 | EXPANDIDO | orden=113
+        N200 | Terraza C (130.0,100.0) | t=247.5 | bat=96.15 | CI=285.0 | CS=857.5 | EXPANDIDO | orden=195
+        N201 | Terraza S (130.0,100.0) | t=220.0 | bat=95.05 | CI=257.5 | CS=830.0 | EXPANDIDO | orden=155
+      N148 | Cafeteria S (170.0,80.0) | t=167.5 | bat=96.07 | CI=205.0 | CS=877.5 | EXPANDIDO | orden=77
+        N156 | Terraza C (130.0,100.0) | t=222.5 | bat=95.15 | CI=260.0 | CS=832.5 | EXPANDIDO | orden=159
+        N157 | Terraza S (130.0,100.0) | t=195.0 | bat=94.05 | CI=232.5 | CS=805.0 | EXPANDIDO | orden=118
+    N106 | Biblioteca C (90.0,70.0) | t=175.0 | bat=98.63 | CI=235.0 | CS=910.0 | EXPANDIDO | orden=120
+      N207 | Terraza C (130.0,100.0) | t=225.0 | bat=97.8 | CI=285.0 | CS=860.0 | EXPANDIDO | orden=196
+      N208 | Terraza S (130.0,100.0) | t=200.0 | bat=96.8 | CI=260.0 | CS=835.0 | EXPANDIDO | orden=160
+      N209 | Terraza P (130.0,100.0) | t=275.0 | bat=98.26 | CI=335.0 | CS=910.0 | EXPANDIDO | orden=242
+      N210 | Sala Estudio C (50.0,60.0) | t=220.0 | bat=97.88 | CI=280.0 | CS=910.0 | EXPANDIDO | orden=188
+        N268 | Kiosco C (15.0,5.0) | t=260.0 | bat=97.22 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N269 | Kiosco S (15.0,5.0) | t=240.0 | bat=96.42 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N270 | Kiosco P (15.0,5.0) | t=300.0 | bat=97.58 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+      N211 | Sala Estudio S (50.0,60.0) | t=197.5 | bat=96.98 | CI=257.5 | CS=887.5 | EXPANDIDO | orden=156
+        N247 | Kiosco C (15.0,5.0) | t=237.5 | bat=96.32 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N248 | Kiosco S (15.0,5.0) | t=217.5 | bat=95.52 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N249 | Kiosco P (15.0,5.0) | t=277.5 | bat=96.68 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+    N107 | Biblioteca P (90.0,70.0) | t=230.0 | bat=99.14 | CI=290.0 | CS=965.0 | EXPANDIDO | orden=201
+      N284 | Terraza C (130.0,100.0) | t=280.0 | bat=98.3 | CI=340.0 | CS=915.0 | EXPANDIDO | orden=249
+      N285 | Terraza S (130.0,100.0) | t=255.0 | bat=97.3 | CI=315.0 | CS=890.0 | EXPANDIDO | orden=229
+      N286 | Terraza P (130.0,100.0) | t=330.0 | bat=98.76 | CI=390.0 | CS=965.0 | EXPANDIDO | orden=265
+      N287 | Sala Estudio C (50.0,60.0) | t=275.0 | bat=98.39 | CI=335.0 | CS=965.0 | EXPANDIDO | orden=243
+        N309 | Kiosco C (15.0,5.0) | t=315.0 | bat=97.72 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N310 | Kiosco S (15.0,5.0) | t=295.0 | bat=96.92 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N311 | Kiosco P (15.0,5.0) | t=355.0 | bat=98.09 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+      N288 | Sala Estudio S (50.0,60.0) | t=252.5 | bat=97.49 | CI=312.5 | CS=942.5 | EXPANDIDO | orden=226
+        N302 | Kiosco C (15.0,5.0) | t=292.5 | bat=96.82 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N303 | Kiosco S (15.0,5.0) | t=272.5 | bat=96.02 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+        N304 | Kiosco P (15.0,5.0) | t=332.5 | bat=97.19 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+  N4 | Aula 402 C (30.0,-50.0) | t=50.0 | bat=100.37 | CI=110.0 | CS=965.0 | EXPANDIDO | orden=4
+    N14 | Puente C (90.0,-30.0) | t=90.0 | bat=99.7 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+    N15 | Puente S (90.0,-30.0) | t=70.0 | bat=98.9 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+    N16 | Deposito C (120.0,-60.0) | t=105.0 | bat=99.45 | CI=165.0 | CS=910.0 | EXPANDIDO | orden=29
+      N81 | Puente C (90.0,-30.0) | t=150.0 | bat=98.7 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+      N82 | Puente S (90.0,-30.0) | t=127.5 | bat=97.8 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+    N17 | Deposito P (120.0,-60.0) | t=160.0 | bat=99.95 | CI=220.0 | CS=965.0 | EXPANDIDO | orden=94
+      N172 | Puente C (90.0,-30.0) | t=205.0 | bat=99.2 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+      N173 | Puente S (90.0,-30.0) | t=182.5 | bat=98.3 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+  N5 | Aula 402 S (30.0,-50.0) | t=25.0 | bat=99.37 | CI=85.0 | CS=940.0 | EXPANDIDO | orden=2
+    N6 | Puente C (90.0,-30.0) | t=65.0 | bat=98.7 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+    N7 | Puente S (90.0,-30.0) | t=45.0 | bat=97.9 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+    N8 | Deposito C (120.0,-60.0) | t=80.0 | bat=98.45 | CI=140.0 | CS=885.0 | EXPANDIDO | orden=13
+      N43 | Puente C (90.0,-30.0) | t=125.0 | bat=97.7 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+      N44 | Puente S (90.0,-30.0) | t=102.5 | bat=96.8 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+    N9 | Deposito P (120.0,-60.0) | t=135.0 | bat=98.95 | CI=195.0 | CS=940.0 | EXPANDIDO | orden=62
+      N130 | Puente C (90.0,-30.0) | t=180.0 | bat=98.2 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+      N131 | Puente S (90.0,-30.0) | t=157.5 | bat=97.3 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+
+TOTAL: creados=316 expandidos=268 soluciones=0 podas_cota=0 podas_ventana=12 podas_no_puede_volver=36 podas_bateria=0 sin_obligatorios=0
