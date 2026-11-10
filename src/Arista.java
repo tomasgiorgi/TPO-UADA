@@ -16,12 +16,22 @@ public class Arista {
 
     // Tiempo con el modo mas rapido permitido: T/2 si se puede saltar, si no T (se usa para mejorEntrada)
     public double tiempoMaximaVelocidad() {
-        return modos.contains(Modo.S) ? tiempo / 2 : tiempo;
+        if (modos.contains(Modo.S)) {
+            return Modo.S.tiempo(tiempo);
+        } else if (modos.contains(Modo.C)) {
+            return Modo.C.bateria(tiempo);
+        }
+        return Modo.P.tiempo(tiempo);
     }
 
     // Tiempo con el modo mas lento permitido: 2T si se puede ir patas para arriba, si no T (se usa para peorEntrada)
     public double tiempoPeorVelocidad() {
-        return modos.contains(Modo.P) ? tiempo * 2 : tiempo;
+        if (modos.contains(Modo.S)) {
+            return Modo.P.tiempo(tiempo);
+        } else if (modos.contains(Modo.C)) {
+            return Modo.C.bateria(tiempo);
+        }
+        return Modo.S.tiempo(tiempo);
     }
 
     // ===== Getters =====
