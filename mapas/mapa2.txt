@@ -1,0 +1,36 @@
+# Mapa chico de UADE: 11 estaciones, 3 obligatorias, 1 ventana de tiempo; conexiones dirigidas
+# LUGAR;nombre;aula(0 si no);x;y;obligatorio;prohibido
+LUGAR;Aula 348;348;0;0;0;0
+LUGAR;Pasillo P3;0;30;0;0;0
+LUGAR;Escalera;0;60;0;0;0
+LUGAR;Biblioteca;0;30;40;0;0
+LUGAR;Aula 401;401;30;-40;0;0
+LUGAR;Aula 501;501;0;40;0;0
+LUGAR;Aula 612;612;60;-40;0;0
+LUGAR;Aula 613;613;90;-40;1;0
+LUGAR;Molinete Lima 3;0;100;0;1;0
+LUGAR;Patio;0;60;40;0;0
+LUGAR;Starbucks;0;90;40;1;0
+# ARISTA;origen;destino;segundos;modos (arista dirigida: origen -> destino; C=caminando, S=saltando, P=patas para arriba)
+ARISTA;Aula 348;Pasillo P3;40;CSP
+ARISTA;Aula 348;Aula 501;55;CS
+ARISTA;Pasillo P3;Escalera;40;CSP
+ARISTA;Pasillo P3;Biblioteca;55;CP
+ARISTA;Pasillo P3;Aula 401;55;CS
+ARISTA;Escalera;Patio;55;CS
+ARISTA;Escalera;Aula 612;55;CSP
+ARISTA;Escalera;Molinete Lima 3;55;CP
+ARISTA;Biblioteca;Patio;40;CS
+ARISTA;Biblioteca;Aula 501;40;CSP
+ARISTA;Aula 501;Patio;60;C
+ARISTA;Patio;Starbucks;40;CSP
+ARISTA;Starbucks;Molinete Lima 3;60;CS
+ARISTA;Molinete Lima 3;Aula 613;50;CSP
+ARISTA;Aula 612;Aula 613;40;CS
+ARISTA;Aula 613;Aula 612;40;CS
+ARISTA;Aula 613;Aula 401;70;CP
+ARISTA;Aula 612;Aula 401;70;CP
+ARISTA;Aula 401;Aula 348;55;CP
+# VENTANA;lugar;desde;hasta (cerrado en [desde,hasta], en segundos)
+VENTANA;Starbucks;100;130
+INICIO;Aula 348

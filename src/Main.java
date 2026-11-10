@@ -33,21 +33,103 @@ public class Main {
             return;
         }
 
-        // ===== 2. ESTRUCTURAS PRINCIPALES =====
+        // ===== 2. EJECUTAR EL ALGORITMO =====
         PrintWriter log = new PrintWriter("log.txt");          // archivo donde se registra todo el proceso
+        Resultado resultado = ejecucionAlgoritmo(mapa, log);
+
+        // Datos que devuelve el algoritmo
+        Lugar inicio = mapa.getInicio();                       // Aula 348
+        List<Nodo> soluciones = resultado.getSoluciones();
+        Nodo mejorParcial = resultado.getMejorParcial();
+        double mejorDistancia = resultado.getMejorDistancia();
+        List<Nodo> todos = resultado.getTodos();
+        int ordenExpansion = resultado.getNodosExpandidos();
+
+        // ===== 3. RESULTADOS POR CONSOLA Y LOG =====
+        System.out.println("Nodos creados: " + todos.size());
+        System.out.println("Nodos expandidos: " + ordenExpansion);
+        soluciones.sort(ORDEN_SOLUCIONES);
+        for (Nodo s : soluciones) System.out.println("Solucion t=" + s.getTiempo() + " bat=" + redondear(s.getBateria()));
+        System.out.println();
+
+        if (!soluciones.isEmpty()) {
+            // Hay soluciones: se muestran las 3 mejores, paso a paso
+            soluciones.sort(ORDEN_SOLUCIONES);
+            for (int i = 0; i < Math.min(3, soluciones.size()); i++) {
+                Nodo s = soluciones.get(i);
+                String ruta = describirRuta(reconstruirRuta(s));
+
+                System.out.println("RUTA " + (i + 1) + " | tiempo=" + s.getTiempo());
+                System.out.print(ruta);
+                System.out.println();
+
+                log.println();
+                log.println("RUTA " + (i + 1) + " | tiempo=" + s.getTiempo() + " | bateria final=" + redondear(s.getBateria()));
+                log.print(ruta);
+            }
+        } else if (mejorParcial == null) {
+            // No hay soluciones y Uada no pudo moverse a ningun lugar valido
+            String msg = "SIN SOLUCION: no existe ningun recorrido que pase por los obligatorios y vuelva a " + inicio.getNombre();
+            System.out.println(msg);
+            log.println();
+            log.println(msg);
+        } else {
+            // Contingencia: no hay soluciones, se muestra la ruta del nodo mas cercano al 348
+            System.out.println("SIN SOLUCION. Distancia euclidea a " + inicio.getNombre() + ": " + mejorDistancia);
+            System.out.println("Ruta mas cercana a " + inicio.getNombre() + ":");
+            String ruta = describirRuta(reconstruirRuta(mejorParcial));
+            System.out.print(ruta);
+
+            log.println();
+            log.println("SIN SOLUCION. Ruta mas cercana a " + inicio.getNombre() + " (distancia=" + mejorDistancia + ")");
+            log.print(ruta);
+        }
+
+        // Arbol de exploracion completo en el log
+        log.println();
+        log.println("ARBOL DE EXPLORACION");
+        escribirArbol(todos, log);
+
+        // Cuenta cuantos nodos terminaron en cada estado (soluciones, cada tipo de poda, etc.)
+        HashMap<Estado, Integer> conteo = new HashMap<>();
+        for (Nodo n : todos) {
+            Estado e = n.getEstado();
+            if (!conteo.containsKey(e)) {
+                conteo.put(e, 0);
+            }
+            conteo.put(e, conteo.get(e) + 1);
+        }
+
+        // Resumen final en el log
+        log.println();
+        log.println("TOTAL: creados=" + todos.size() + " expandidos=" + ordenExpansion
+                + " soluciones=" + contar(conteo, Estado.SOLUCION)
+                + " podas_cota=" + contar(conteo, Estado.PODA_COTA)
+                + " podas_ventana=" + contar(conteo, Estado.PODA_VENTANA)
+                + " podas_no_puede_volver=" + contar(conteo, Estado.PODA_NO_PUEDE_VOLVER)
+                + " podas_bateria=" + contar(conteo, Estado.PODA_BATERIA)
+                + " sin_obligatorios=" + contar(conteo, Estado.SIN_OBLIGATORIOS));
+
+        log.close();
+    }
+
+    // ===== ALGORITMO BRANCH & BOUND =====
+    // Recibe el mapa ya leido y el log donde anota cada paso. Lo usan Main y Medicion.
+    static Resultado ejecucionAlgoritmo(LectorMapa mapa, PrintWriter log) {
+        // ===== A. ESTRUCTURAS PRINCIPALES =====
         PriorityQueue<Nodo> vivos = new PriorityQueue<>();     // cola de nodos vivos, ordenada por CI, CS e id (ver Nodo.compareTo)
         Lugar inicio = mapa.getInicio();                       // Aula 348
         Nodo.setInicio(inicio);                                // los nodos lo usan para calcular su distancia al 348
         List<Lugar> lugares = mapa.getLugares();               // lugares del grafo (sin zonas prohibidas)
 
-        // ===== 3. NODO RAIZ =====
+        // ===== B. NODO RAIZ =====
         List<Nodo> todos = new ArrayList<>();                  // todos los nodos creados; la posicion es el id
         Nodo raiz = new Nodo(0, null, inicio, Modo.N, 0, BATERIA_INICIAL);   // Modo.N = sin modo (no se movio)
         raiz.registrarLlegada();                               // el 348 queda como visitado
         raiz.getPendientes().addAll(mapa.getObligatorios());   // pendientes: obligatorios + el 348 (hay que volver)
         todos.add(raiz);
 
-        // ===== 4. COTAS DE LA RAIZ Y COTA GENERAL (U) =====
+        // ===== C. COTAS DE LA RAIZ Y COTA GENERAL (U) =====
         Cotas cotas = new Cotas(inicio, lugares);              // precalcula mejorEntrada y peorEntrada de cada lugar
         raiz.setCI(cotas.calcularCI(raiz.getTiempo(), raiz.getVisitados(), raiz.getPendientes(), inicio));
         raiz.setCS(cotas.calcularCS(raiz.getTiempo(), raiz.getVisitados()));
@@ -60,7 +142,7 @@ public class Main {
 
         vivos.add(raiz);
 
-        // ===== 5. CICLO PRINCIPAL DE BRANCH & BOUND =====
+        // ===== D. CICLO PRINCIPAL DE BRANCH & BOUND =====
         while (!vivos.isEmpty()) {
             Nodo n = vivos.poll();                             // saca el nodo de menor CI (el mas prometedor)
 
@@ -80,7 +162,7 @@ public class Main {
             n.setEstado(Estado.EXPANDIDO);
             log.println("PASO " + ordenExpansion + " | extraido N" + n.getId() + " | CI=" + n.getCI() + " | CS=" + n.getCS() + " | U=" + U + " | vivos=" + vivos.size());
 
-            // ===== 6. GENERAR HIJOS: una rama por cada arista de salida y cada modo permitido =====
+            // ===== E. GENERAR HIJOS: una rama por cada arista de salida y cada modo permitido =====
             for (Arista a : n.getLugar().getSalidas()) {
                 for (Modo m : a.getModos()) {
                     Lugar destino = a.getDestino();
@@ -162,72 +244,8 @@ public class Main {
             }
         }
 
-        // ===== 7. RESULTADOS POR CONSOLA Y LOG =====
-        System.out.println("Nodos creados: " + todos.size());
-        System.out.println("Nodos expandidos: " + ordenExpansion);
-        soluciones.sort(ORDEN_SOLUCIONES);
-        for (Nodo s : soluciones) System.out.println("Solucion t=" + s.getTiempo() + " bat=" + redondear(s.getBateria()));
-        System.out.println();
-
-        if (!soluciones.isEmpty()) {
-            // Hay soluciones: se muestran las 3 mejores, paso a paso
-            soluciones.sort(ORDEN_SOLUCIONES);
-            for (int i = 0; i < Math.min(3, soluciones.size()); i++) {
-                Nodo s = soluciones.get(i);
-                String ruta = describirRuta(reconstruirRuta(s));
-
-                System.out.println("RUTA " + (i + 1) + " | tiempo=" + s.getTiempo());
-                System.out.print(ruta);
-                System.out.println();
-
-                log.println();
-                log.println("RUTA " + (i + 1) + " | tiempo=" + s.getTiempo() + " | bateria final=" + redondear(s.getBateria()));
-                log.print(ruta);
-            }
-        } else if (mejorParcial == null) {
-            // No hay soluciones y Uada no pudo moverse a ningun lugar valido
-            String msg = "SIN SOLUCION: no existe ningun recorrido que pase por los obligatorios y vuelva a " + inicio.getNombre();
-            System.out.println(msg);
-            log.println();
-            log.println(msg);
-        } else {
-            // Contingencia: no hay soluciones, se muestra la ruta del nodo mas cercano al 348
-            System.out.println("SIN SOLUCION. Distancia euclidea a " + inicio.getNombre() + ": " + mejorDistancia);
-            System.out.println("Ruta mas cercana a " + inicio.getNombre() + ":");
-            String ruta = describirRuta(reconstruirRuta(mejorParcial));
-            System.out.print(ruta);
-
-            log.println();
-            log.println("SIN SOLUCION. Ruta mas cercana a " + inicio.getNombre() + " (distancia=" + mejorDistancia + ")");
-            log.print(ruta);
-        }
-
-        // Arbol de exploracion completo en el log
-        log.println();
-        log.println("ARBOL DE EXPLORACION");
-        escribirArbol(todos, log);
-
-        // Cuenta cuantos nodos terminaron en cada estado (soluciones, cada tipo de poda, etc.)
-        HashMap<Estado, Integer> conteo = new HashMap<>();
-        for (Nodo n : todos) {
-            Estado e = n.getEstado();
-            if (!conteo.containsKey(e)) {
-                conteo.put(e, 0);
-            }
-            conteo.put(e, conteo.get(e) + 1);
-        }
-
-        // Resumen final en el log
-        log.println();
-        log.println("TOTAL: creados=" + todos.size() + " expandidos=" + ordenExpansion
-                + " soluciones=" + contar(conteo, Estado.SOLUCION)
-                + " podas_cota=" + contar(conteo, Estado.PODA_COTA)
-                + " podas_ventana=" + contar(conteo, Estado.PODA_VENTANA)
-                + " podas_no_puede_volver=" + contar(conteo, Estado.PODA_NO_PUEDE_VOLVER)
-                + " podas_bateria=" + contar(conteo, Estado.PODA_BATERIA)
-                + " sin_obligatorios=" + contar(conteo, Estado.SIN_OBLIGATORIOS));
-
-        log.close();
+        // ===== F. DEVOLVER LO QUE NECESITA QUIEN LLAMA =====
+        return new Resultado(soluciones, mejorParcial, mejorDistancia, todos, ordenExpansion);
     }
 
     // ===== FUNCIONES AUXILIARES =====
