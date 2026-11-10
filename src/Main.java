@@ -144,7 +144,7 @@ public class Main {
 
         // ===== D. CICLO PRINCIPAL DE BRANCH & BOUND =====
         while (!vivos.isEmpty()) {
-            Nodo n = vivos.poll();                             // saca el nodo de menor CI (el mas prometedor)
+            Nodo n = vivos.poll(); // saca el nodo de menor CI (el mas prometedor)
 
             // Poda por cota al sacar: si su CI supera U, este y todos los que quedan (CI mayor o igual) se podan
             if (n != raiz && n.getCI() > U) { //Si No hay manera de volver al 348, expandimos la raiz porque en los hijos nos damos cuenta de que no hay solucion.
