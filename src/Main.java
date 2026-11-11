@@ -49,7 +49,7 @@ public class Main {
         System.out.println("Nodos creados: " + todos.size());
         System.out.println("Nodos expandidos: " + ordenExpansion);
         soluciones.sort(ORDEN_SOLUCIONES);
-        for (Nodo s : soluciones) System.out.println("Solucion t=" + s.getTiempo() + " bat=" + redondear(s.getBateria()));
+        for (Nodo s : soluciones) System.out.println("Solucion t=" + redondear(s.getTiempo()) + " bat=" + redondear(s.getBateria()));
         System.out.println();
 
         if (!soluciones.isEmpty()) {
@@ -59,12 +59,12 @@ public class Main {
                 Nodo s = soluciones.get(i);
                 String ruta = describirRuta(reconstruirRuta(s));
 
-                System.out.println("RUTA " + (i + 1) + " | tiempo=" + s.getTiempo());
+                System.out.println("RUTA " + (i + 1) + " | tiempo=" + redondear(s.getTiempo()));
                 System.out.print(ruta);
                 System.out.println();
 
                 log.println();
-                log.println("RUTA " + (i + 1) + " | tiempo=" + s.getTiempo() + " | bateria final=" + redondear(s.getBateria()));
+                log.println("RUTA " + (i + 1) + " | tiempo=" + redondear(s.getTiempo()) + " | bateria final=" + redondear(s.getBateria()));
                 log.print(ruta);
             }
         } else if (mejorParcial == null) {
@@ -282,7 +282,7 @@ public class Main {
             sb.append(anterior.getLugar().getNombre()).append(" -> ").append(n.getLugar().getNombre())
                     .append(" | ").append(n.getModo())
                     .append(" | bateria=").append(redondear(n.getBateria()))
-                    .append(" | t=").append(n.getTiempo())
+                    .append(" | t=").append(redondear(n.getTiempo()))
                     .append(System.lineSeparator());
         }
         return sb.toString();
@@ -314,7 +314,7 @@ public class Main {
 
         log.println(espacios + "N" + n.getId() + " | " + n.getLugar().getNombre() + " " + n.getModo()
                 + " (" + n.getLugar().getX() + "," + n.getLugar().getY() + ")"
-                + " | t=" + n.getTiempo() + " | bat=" + redondear(n.getBateria())
+                + " | t=" + redondear(n.getTiempo()) + " | bat=" + redondear(n.getBateria())
                 + " | CI=" + n.getCI() + " | CS=" + n.getCS()
                 + " | " + n.getEstado() + " | orden=" + n.getOrdenExpansion());
 
