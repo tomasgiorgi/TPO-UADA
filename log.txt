@@ -1,16 +1,78 @@
-PASO 1 | extraido N0 | CI=1.7976931348623157E308 | CS=1615.0 | U=1615.0 | vivos=0
+PASO 1 | extraido N0 | CI=102.5 | CS=365.0 | U=365.0 | vivos=0
+PASO 2 | extraido N1 | CI=142.5 | CS=365.0 | U=365.0 | vivos=0
+PASO 3 | extraido N3 | CI=162.5 | CS=345.0 | U=365.0 | vivos=1
+PASO 4 | extraido N6 | CI=162.5 | CS=262.5 | U=365.0 | vivos=3
+PASO 5 | extraido N10 | CI=162.5 | CS=232.5 | U=365.0 | vivos=4
+PASO 6 | extraido N2 | CI=182.5 | CS=365.0 | U=365.0 | vivos=4
+PASO 7 | extraido N9 | CI=187.5 | CS=257.5 | U=365.0 | vivos=5
+PASO 8 | extraido N8 | CI=192.5 | CS=345.0 | U=365.0 | vivos=5
+PASO 9 | extraido N15 | CI=212.5 | CS=365.0 | U=365.0 | vivos=4
+PASO 10 | extraido N11 | CI=232.5 | CS=232.5 | U=365.0 | vivos=3
+PASO 11 | extraido N7 | CI=245.0 | CS=345.0 | U=365.0 | vivos=2
+PASO 12 | extraido N21 | CI=245.0 | CS=315.0 | U=365.0 | vivos=3
+PASO 13 | extraido N16 | CI=257.5 | CS=257.5 | U=365.0 | vivos=3
+PASO 14 | extraido N14 | CI=265.0 | CS=365.0 | U=365.0 | vivos=2
+PASO 15 | extraido N25 | CI=265.0 | CS=335.0 | U=365.0 | vivos=3
+PASO 16 | extraido N20 | CI=270.0 | CS=340.0 | U=365.0 | vivos=3
+PASO 17 | extraido N24 | CI=290.0 | CS=360.0 | U=365.0 | vivos=3
+PASO 18 | extraido N22 | CI=315.0 | CS=315.0 | U=365.0 | vivos=3
+U actualizado a 315.0 (tercera mejor solucion)
+PODA | N26 CI=335.0 > U=315.0 | se podan los vivos restantes
 
-SIN SOLUCION. Ruta mas cercana a Aula 348 (distancia=30.0)
-Aula 348 -> Pasillo P3 | S | bateria=98.53 | t=20.0
+RUTA 1 | tiempo=232.5 | bateria final=97.02
+Aula 348 -> Pasillo P3 | C | bateria=99.33 | t=40.0
+Pasillo P3 -> Escalera | S | bateria=97.87 | t=60.0
+Escalera -> Starbucks | S | bateria=95.85 | t=87.5
+Starbucks -> Aula 613 | S | bateria=96.02 | t=112.5
+Aula 613 -> Biblioteca | C | bateria=94.85 | t=182.5
+Biblioteca -> Aula 348 | C | bateria=97.02 | t=232.5
+
+RUTA 2 | tiempo=257.5 | bateria final=98.02
+Aula 348 -> Pasillo P3 | C | bateria=99.33 | t=40.0
+Pasillo P3 -> Escalera | S | bateria=97.87 | t=60.0
+Escalera -> Starbucks | S | bateria=95.85 | t=87.5
+Starbucks -> Aula 613 | C | bateria=97.02 | t=137.5
+Aula 613 -> Biblioteca | C | bateria=95.85 | t=207.5
+Biblioteca -> Aula 348 | C | bateria=98.02 | t=257.5
+
+RUTA 3 | tiempo=315.0 | bateria final=98.62
+Aula 348 -> Pasillo P3 | C | bateria=99.33 | t=40.0
+Pasillo P3 -> Escalera | S | bateria=97.87 | t=60.0
+Escalera -> Starbucks | P | bateria=97.45 | t=170.0
+Starbucks -> Aula 613 | S | bateria=97.62 | t=195.0
+Aula 613 -> Biblioteca | C | bateria=96.45 | t=265.0
+Biblioteca -> Aula 348 | C | bateria=98.62 | t=315.0
 
 ARBOL DE EXPLORACION
-N0 | Aula 348 N (0.0,0.0) | t=0.0 | bat=100.0 | CI=1.7976931348623157E308 | CS=1615.0 | EXPANDIDO | orden=1
-  N1 | Pasillo P3 C (30.0,0.0) | t=40.0 | bat=99.33 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
-  N2 | Pasillo P3 S (30.0,0.0) | t=20.0 | bat=98.53 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
-  N3 | Pasillo P3 P (30.0,0.0) | t=80.0 | bat=99.7 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
-  N4 | Aula 501 C (0.0,40.0) | t=55.0 | bat=100.0 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
-  N5 | Aula 501 S (0.0,40.0) | t=27.5 | bat=99.18 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
-  N6 | Aula 402 C (0.0,-40.0) | t=55.0 | bat=100.0 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
-  N7 | Aula 402 P (0.0,-40.0) | t=110.0 | bat=100.0 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+N0 | Aula 348 N (0.0,0.0) | t=0.0 | bat=100.0 | CI=102.5 | CS=365.0 | EXPANDIDO | orden=1
+  N1 | Pasillo P3 C (30.0,0.0) | t=40.0 | bat=99.33 | CI=142.5 | CS=365.0 | EXPANDIDO | orden=2
+    N2 | Escalera C (60.0,0.0) | t=80.0 | bat=98.67 | CI=182.5 | CS=365.0 | EXPANDIDO | orden=6
+      N12 | Starbucks C (90.0,40.0) | t=135.0 | bat=97.75 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+      N13 | Starbucks S (90.0,40.0) | t=107.5 | bat=96.65 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+      N14 | Starbucks P (90.0,40.0) | t=190.0 | bat=98.25 | CI=265.0 | CS=365.0 | EXPANDIDO | orden=14
+        N24 | Aula 613 C (90.0,-40.0) | t=240.0 | bat=99.42 | CI=290.0 | CS=360.0 | EXPANDIDO | orden=17
+          N28 | Biblioteca C (30.0,40.0) | t=310.0 | bat=98.25 | CI=360.0 | CS=360.0 | PODA_COTA | orden=0
+        N25 | Aula 613 S (90.0,-40.0) | t=215.0 | bat=98.42 | CI=265.0 | CS=335.0 | EXPANDIDO | orden=15
+          N26 | Biblioteca C (30.0,40.0) | t=285.0 | bat=97.25 | CI=335.0 | CS=335.0 | PODA_COTA | orden=0
+      N15 | Aula 613 C (90.0,-40.0) | t=135.0 | bat=99.75 | CI=212.5 | CS=365.0 | EXPANDIDO | orden=9
+        N18 | Biblioteca C (30.0,40.0) | t=205.0 | bat=98.58 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+    N3 | Escalera S (60.0,0.0) | t=60.0 | bat=97.87 | CI=162.5 | CS=345.0 | EXPANDIDO | orden=3
+      N5 | Starbucks C (90.0,40.0) | t=115.0 | bat=96.95 | CI=0.0 | CS=0.0 | PODA_VENTANA | orden=0
+      N6 | Starbucks S (90.0,40.0) | t=87.5 | bat=95.85 | CI=162.5 | CS=262.5 | EXPANDIDO | orden=4
+        N9 | Aula 613 C (90.0,-40.0) | t=137.5 | bat=97.02 | CI=187.5 | CS=257.5 | EXPANDIDO | orden=7
+          N16 | Biblioteca C (30.0,40.0) | t=207.5 | bat=95.85 | CI=257.5 | CS=257.5 | EXPANDIDO | orden=13
+            N23 | Aula 348 C (0.0,0.0) | t=257.5 | bat=98.02 | CI=257.5 | CS=257.5 | SOLUCION | orden=0
+        N10 | Aula 613 S (90.0,-40.0) | t=112.5 | bat=96.02 | CI=162.5 | CS=232.5 | EXPANDIDO | orden=5
+          N11 | Biblioteca C (30.0,40.0) | t=182.5 | bat=94.85 | CI=232.5 | CS=232.5 | EXPANDIDO | orden=10
+            N19 | Aula 348 C (0.0,0.0) | t=232.5 | bat=97.02 | CI=232.5 | CS=232.5 | SOLUCION | orden=0
+      N7 | Starbucks P (90.0,40.0) | t=170.0 | bat=97.45 | CI=245.0 | CS=345.0 | EXPANDIDO | orden=11
+        N20 | Aula 613 C (90.0,-40.0) | t=220.0 | bat=98.62 | CI=270.0 | CS=340.0 | EXPANDIDO | orden=16
+          N27 | Biblioteca C (30.0,40.0) | t=290.0 | bat=97.45 | CI=340.0 | CS=340.0 | PODA_COTA | orden=0
+        N21 | Aula 613 S (90.0,-40.0) | t=195.0 | bat=97.62 | CI=245.0 | CS=315.0 | EXPANDIDO | orden=12
+          N22 | Biblioteca C (30.0,40.0) | t=265.0 | bat=96.45 | CI=315.0 | CS=315.0 | EXPANDIDO | orden=18
+            N29 | Aula 348 C (0.0,0.0) | t=315.0 | bat=98.62 | CI=315.0 | CS=315.0 | SOLUCION | orden=0
+      N8 | Aula 613 C (90.0,-40.0) | t=115.0 | bat=98.95 | CI=192.5 | CS=345.0 | EXPANDIDO | orden=8
+        N17 | Biblioteca C (30.0,40.0) | t=185.0 | bat=97.78 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
+    N4 | Biblioteca C (30.0,40.0) | t=95.0 | bat=98.42 | CI=0.0 | CS=0.0 | PODA_NO_PUEDE_VOLVER | orden=0
 
-TOTAL: creados=8 expandidos=1 soluciones=0 podas_cota=0 podas_ventana=0 podas_no_puede_volver=7 podas_bateria=0 sin_obligatorios=0
+TOTAL: creados=30 expandidos=18 soluciones=3 podas_cota=3 podas_ventana=3 podas_no_puede_volver=3 podas_bateria=0 sin_obligatorios=0
